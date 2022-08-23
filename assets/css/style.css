@@ -86,3 +86,22 @@ h1, h2 {
     }
 }
 
+/* main page culture & gastronomy */
+
+#brazil-info, #portugal-info {
+    height: 200px;
+}
+
+#left-info {
+    padding-top: 30px;
+    width: 45%;
+    float: left;
+    background-color: blue;
+}
+
+#right-info {
+    padding-top: 30px;
+    width: 45%;
+    float: right;
+    background-color: green;
+}
