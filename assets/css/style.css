@@ -105,3 +105,20 @@ h1, h2 {
     float: right;
     background-color: green;
 }
+
+/* footer */
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 2%;
+    color: grey;
+}
