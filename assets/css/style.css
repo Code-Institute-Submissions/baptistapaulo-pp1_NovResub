@@ -24,11 +24,13 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 30px;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    margin-right: 30px;
 }
 
 #menu, #logo {
@@ -83,3 +85,4 @@ h1, h2 {
         transform: scale(1.2);
     }
 }
+
