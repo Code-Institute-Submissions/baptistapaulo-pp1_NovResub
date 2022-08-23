@@ -53,3 +53,33 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* main menu image */
+
+#table-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#table-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/table-image.png') no-repeat center center;
+
+    /* animation zoom effect on loading page */
+    animation-name: table-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates animation for table image */
+
+@keyframes table-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
