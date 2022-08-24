@@ -33,70 +33,71 @@
     </header><br>
 
 	<form action="https://formdump.codeinstitute.net" method="POST">
-    <h2>Complete this Survey</h1>
-	<fieldset>
-		<legend>Your contact details</legend>
 
-		<div>
-			<label for="name-field">First Name</label>
-			<input required id="name-field" type="text" name="first_name" placeholder="Your first name" >
-		</div>
-        <div>
-			<label for="name-field">Last Name</label>
-			<input required id="name-field" type="text" name="last_name" placeholder="Your last name" >
-		</div>
-		<div>
-			<label for="email-field">Email</label>
-			<input required id="email-field" type="email" name="email" placeholder="Your email">
-		</div>
-
-		<label for="gender">Gender</label>
-		<select required id="gender" name="gender">
-			<option value="man">Man</option>
-			<option value="woman">Woman</option>
-			<option value="no-gender">No Gender</option>
-		</select>
-
-	</fieldset>
-
+    <h2>Complete this Survey Form</h2>
 		<fieldset>
-			<br><legend>Our products</legend>
+			<legend>Your contact details</legend>
 			<div>
-				<label for="fav-food">What is your favourite food?</label>
-				<input required id="fav-food" list="products" name="fav-food">
-				<datalist id="recipe?">
-					<option value="Brazilian - Brigadeiro">
-                    <option value="Brazilian - Pastel">
-                    <option value="Brazilian - Coxinha">
-                    <option value="Brazilian - Feijoada">
-                    <option value="Portuguese - Bacalhau">
-                    <option value="Portuguese - Sardinhas">
-                    <option value="Portuguese - Pastel Nata">
-                    <option value="Portuguese - Ovos Moles">
-				</datalist>
+				<label for="name-field">First Name</label>
+				<input required id="name-field" type="text" name="first_name" placeholder="Your first name" >
+			</div>
+			<div>
+				<label for="name-field">Last Name</label>
+				<input required id="name-field" type="text" name="last_name" placeholder="Your last name" >
+			</div>
+			<div>
+				<label for="email-field">Email</label>
+				<input required id="email-field" type="email" name="email" placeholder="Your email">
 			</div>
 
-			<p>How many days a week you go to a restaurant?</p>
+			<label for="gender">Gender</label>
+			<select required id="gender" name="gender">
+				<option value="man">Man</option>
+				<option value="woman">Woman</option>
+				<option value="no-gender">No Gender</option>
+			</select>
 
-			<input required id="0-2days-radio" name="cups-a-day" value="0-2days" type="radio">
-			<label for="0-2days-radio">0 to 2 days</label>
+		</fieldset><br>
 
-			<input required id="3-5days-radio" name="cups-a-day" value="3-5days" type="radio">
-			<label for="3-5days-radio">3 to 5 days</label>
+		<fieldset>
+			<legend>Our products</legend>
+			<div>
+				<label for="fav-food">What is your favourite food?</label>
+				<select required id="fav-food" list="products" name="fav-food">
+					<option value="Brazilian - Brigadeiro">Brazilian - Brigadeiro</option>
+                    <option value="Brazilian - Pastel">Brazilian - Pastel</option>
+                    <option value="Brazilian - Coxinha">Brazilian - Coxinha</option>
+                    <option value="Brazilian - Feijoada">Brazilian - Feijoada</option>
+                    <option value="Portuguese - Bacalhau">Portuguese - Bacalhau</option>
+                    <option value="Portuguese - Sardinhas">Portuguese - Sardinhas</option>
+                    <option value="Portuguese - Pastel Nata">Portuguese - Pastel Nata</option>
+                    <option value="Portuguese - Ovos Moles">Portuguese - Ovos Moles</option>
+				</select>
+			</div><br>
 
-			<input required id="6-7dayss-radio" name="cups-a-day" value="6-8days" type="radio">
-			<label for="6-7dayss-radio">6 to 8 days</label>
+			<div>
+				<p>How many days a week you go to a restaurant?</p>
 
-			<p>How many days a week you eat at home?</p>
+				<input required id="0-2days-radio" name="rest-a-day" value="0-2days" type="radio">
+				<label for="0-2days-radio">0 to 2 days</label>
 
-            <input required id="0-2days-radio" name="cups-a-day" value="0-2days" type="radio">
-			<label for="0-2days-radio">0 to 2 days</label>
+				<input required id="3-5days-radio" name="rest-a-day" value="3-5days" type="radio">
+				<label for="3-5days-radio">3 to 5 days</label>
 
-			<input required id="3-5days-radio" name="cups-a-day" value="3-5days" type="radio">
-			<label for="3-5days-radio">3 to 5 days</label>
+				<input required id="6-7dayss-radio" name="rest-a-day" value="6-7days" type="radio">
+				<label for="6-7dayss-radio">6 to 7 days</label>
 
-			<input required id="6-7dayss-radio" name="cups-a-day" value="6-8days" type="radio">
-			<label for="6-7dayss-radio">6 to 8 days</label>
+				<p>How many days a week you eat at home?</p>
+
+				<input required id="2-days-radio" name="home-a-day" value="2-days" type="radio">
+				<label for="2-days-radio">0 to 2 days</label>
+
+				<input required id="5-days-radio" name="home-a-day" value="5-days" type="radio">
+				<label for="5-days-radio">3 to 5 days</label>
+
+				<input required id="7-dayss-radio" name="home-a-day" value="7-days" type="radio">
+				<label for="7-dayss-radio">6 to 7 days</label>
+			</div>
 
 			<p>Where do you prefer to eat?</p>
 			<div>
@@ -111,9 +112,9 @@
 				<input type="checkbox" id="office-checkbox" name="office">
 				<label for="office-checkbox">Office</label>
 			</div>
-		</fieldset>
+		</fieldset><br>
 
-		<br><fieldset>
+		<fieldset>
 			<legend>Feedback</legend>
 			<label for="feedback">Which other recipes would you like to see posted and why?</label>
 			<br>
