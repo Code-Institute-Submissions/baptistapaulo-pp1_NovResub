@@ -96,14 +96,13 @@ h1, h2 {
     padding-top: 30px;
     width: 45%;
     float: left;
-    background-color: blue;
+    background-color: rgb(165, 161, 161);
 }
 
 #right-info {
     padding-top: 30px;
     width: 45%;
     float: right;
-    background-color: green;
 }
 
 /* footer */
