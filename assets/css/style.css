@@ -88,24 +88,60 @@ h1, h2 {
 
 /* main page culture & gastronomy */
 
-#brazil-info, #portugal-info {
-    height: 200px;
+#main-info {
+    height: 75px;
 }
 
-#left-info {
+#brazil-info {
     padding-top: 30px;
-    width: 45%;
+    width: 33%;
     float: left;
-    background-color: rgb(165, 161, 161);
 }
 
-#right-info {
+#portugal-info {
     padding-top: 30px;
-    width: 45%;
+    width: 33%;
     float: right;
 }
 
+.left-info {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-info {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left-info h2 {
+    text-align: left;
+}
+
+.left-info p {
+    text-align: left;
+}
+
+.right-info h2 {
+    text-align: right;
+}
+
+.right-info p {
+    text-align: right;
+}
+
 /* footer */
+
+footer {
+    height: 500px;
+    bott
+}
 
 .social-media {
     text-align: center;
