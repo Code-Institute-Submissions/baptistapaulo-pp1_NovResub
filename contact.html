@@ -30,7 +30,103 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header><br>
+
+	<form action="https://formdump.codeinstitute.net" method="POST">
+    <h2>Complete this Survey</h1>
+	<fieldset>
+		<legend>Your contact details</legend>
+
+		<div>
+			<label for="name-field">First Name</label>
+			<input required id="name-field" type="text" name="first_name" placeholder="Your first name" >
+		</div>
+        <div>
+			<label for="name-field">Last Name</label>
+			<input required id="name-field" type="text" name="last_name" placeholder="Your last name" >
+		</div>
+		<div>
+			<label for="email-field">Email</label>
+			<input required id="email-field" type="email" name="email" placeholder="Your email">
+		</div>
+
+		<label for="gender">Gender</label>
+		<select required id="gender" name="gender">
+			<option value="man">Man</option>
+			<option value="woman">Woman</option>
+			<option value="no-gender">No Gender</option>
+		</select>
+
+	</fieldset>
+
+		<fieldset>
+			<br><legend>Our products</legend>
+			<div>
+				<label for="fav-food">What is your favourite food?</label>
+				<input required id="fav-food" list="products" name="fav-food">
+				<datalist id="recipe?">
+					<option value="Brazilian - Brigadeiro">
+                    <option value="Brazilian - Pastel">
+                    <option value="Brazilian - Coxinha">
+                    <option value="Brazilian - Feijoada">
+                    <option value="Portuguese - Bacalhau">
+                    <option value="Portuguese - Sardinhas">
+                    <option value="Portuguese - Pastel Nata">
+                    <option value="Portuguese - Ovos Moles">
+				</datalist>
+			</div>
+
+			<p>How many days a week you go to a restaurant?</p>
+
+			<input required id="0-2days-radio" name="cups-a-day" value="0-2days" type="radio">
+			<label for="0-2days-radio">0 to 2 days</label>
+
+			<input required id="3-5days-radio" name="cups-a-day" value="3-5days" type="radio">
+			<label for="3-5days-radio">3 to 5 days</label>
+
+			<input required id="6-7dayss-radio" name="cups-a-day" value="6-8days" type="radio">
+			<label for="6-7dayss-radio">6 to 8 days</label>
+
+			<p>How many days a week you eat at home?</p>
+
+            <input required id="0-2days-radio" name="cups-a-day" value="0-2days" type="radio">
+			<label for="0-2days-radio">0 to 2 days</label>
+
+			<input required id="3-5days-radio" name="cups-a-day" value="3-5days" type="radio">
+			<label for="3-5days-radio">3 to 5 days</label>
+
+			<input required id="6-7dayss-radio" name="cups-a-day" value="6-8days" type="radio">
+			<label for="6-7dayss-radio">6 to 8 days</label>
+
+			<p>Where do you prefer to eat?</p>
+			<div>
+				<input type="checkbox" id="restaurant-checkbox" name="restaurant">
+				<label for="restaurant-checkbox">Restaurant</label>
+			</div>
+			<div>
+				<input type="checkbox" id="home-checkbox" name="home">
+				<label for="home-checkbox">Home</label>
+			</div>
+			<div>
+				<input type="checkbox" id="office-checkbox" name="office">
+				<label for="office-checkbox">Office</label>
+			</div>
+		</fieldset>
+
+		<br><fieldset>
+			<legend>Feedback</legend>
+			<label for="feedback">Which other recipes would you like to see posted and why?</label>
+			<br>
+			<textarea id="feedback" rows="10" cols="60" name="feedback"></textarea>
+		</fieldset>
+
+
+		<button type="submit">
+			<strong>Submit Form</strong>
+		</button>
+		<input type="reset" value="Reset Form">
+
+	</form>
 
     <footer>
         <ul class="social-media">

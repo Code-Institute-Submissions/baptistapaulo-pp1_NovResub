@@ -135,3 +135,11 @@ h1, h2 {
 #photos > img {
     width: 100%;
 }
+
+/* contact form */
+
+form {
+	margin-top: 5rem;
+    margin-left: 5rem;
+    text-align: left;
+}
