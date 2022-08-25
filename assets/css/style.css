@@ -95,6 +95,7 @@ h1, h2 {
 #left-info {
     padding-top: 30px;
     float: left;
+    background-color: gray;
 }
 
 #brazil-image {
@@ -175,6 +176,7 @@ footer {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
+    background-color: gray;
 }
 
 #photos > img {
@@ -185,8 +187,8 @@ footer {
 
 form {
 	margin-top: 5rem;
-    margin-left: 5rem;
     text-align: center;
+    background-color: gray;
 }
 
 form > h2 {
