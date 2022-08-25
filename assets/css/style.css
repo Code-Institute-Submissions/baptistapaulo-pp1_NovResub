@@ -203,3 +203,33 @@ form > fieldset {
     margin-left: 44rem;
     text-align: left;
 }
+
+/* media queries */
+
+/* for larger to medium screens size from 1200px wide */
+
+@media screen and (max-width: 1200px) {
+    #main-info, #photos {
+        width: 60%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    form > fieldset {
+        width: 60%;
+        height: 1200px;
+        margin-left: 0;
+    }
+
+    .left-info-div, #brazil-image {
+        clear: both;
+        float: center;
+        width: 100%;
+    }
+
+    .right-info-div, #portugal-info {
+        clear: both;
+        float: center;
+        width: 100%;
+    }
+}
