@@ -67,7 +67,7 @@ h1, h2 {
 #table-image {
     height: 300px;
     width: 100%;
-    background: url('../images/table-image.png') no-repeat center center;
+    background: url('../images/table-image.png') repeat center center;
 
     /* animation zoom effect on loading page */
     animation-name: table-zoom;
@@ -89,22 +89,32 @@ h1, h2 {
 /* main page culture & gastronomy */
 
 #main-info {
-    height: 75px;
+    height: 600px;
 }
 
-#brazil-info {
+#left-info {
     padding-top: 30px;
-    width: 33%;
     float: left;
 }
 
-#portugal-info {
+#brazil-image {
+    height: 200px;
+    width: 100%;
+    background: url('../images/brazil-capoeira-unesco.jpg') left;  
+}
+
+#right-info {
     padding-top: 30px;
-    width: 33%;
     float: right;
 }
 
-.left-info {
+#portugal-image {
+    height: 200px;
+    width: 100%;
+    background: url('../images/portugal-cork-traditional.jpg') right;  
+}
+
+.left-info-div {
     width: 60%;
     float: right;
     line-height: 20px;
@@ -112,7 +122,7 @@ h1, h2 {
     margin-bottom: 50px;
 }
 
-.right-info {
+.right-info-div {
     width: 60%;
     float: left;
     line-height: 20px;
