@@ -31,14 +31,14 @@ h1, h2 {
     height: 5em;
     width: 10em;
     float: left;
-    margin-left: 400px;
+    margin-left: 330px;
     margin-top: 10px;
 }
 
 #menu {
     font-size: 175%;
     letter-spacing: 4px;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 #menu, #logo {
@@ -48,7 +48,7 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 3px;
+    margin-right: 25px;
 }
 
 #menu a {
@@ -96,64 +96,74 @@ h1, h2 {
 
 /* main page culture & gastronomy */
 
-#main-info {
+#main-section {
     height: 600px;
 }
 
-#left-info {
-    padding-top: 30px;
-    float: left;
-    background-color: lightgray;
-}
-
-#brazil-image {
-    height: 200px;
-    width: 100%;
-    background: url('../images/brazil-capoeira-unesco.jpg') center no-repeat;  
-}
-
-#right-info {
+#brazil-content {
     padding-top: 30px;
     float: right;
     background-color: lightgray;
 }
 
-#portugal-image {
-    height: 200px;
-    width: 100%;
-    background: url('../images/portugal-cork-traditional.jpg') center no-repeat;  
+.brazil {
+    width: 60%;
+    line-height: 20px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    background-color: gray;
+    padding: 1%;
 }
 
-.left-info-div {
-    width: 60%;
+.brazil-info-image {
+    height: 75%;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.brazil-content h2 {
+    text-align: left;
+}
+
+.brazil-content p {
+    text-align: left;
+}
+
+.brazil-content img {
+    text-align: center;
+}
+
+#portugal-content {
+    padding-top: 30px;
     float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    background-color: lightgray;
 }
 
-.right-info-div {
+.portugal {
     width: 60%;
-    float: left;
     line-height: 20px;
-    clear: both;
     margin-bottom: 50px;
+    border-radius: 40px;
+    background-color: gray;
+    padding: 1%;
 }
 
-.left-info h2 {
-    text-align: left;
+.portugal-info-image {
+    height: 50%;
+    width: 75%;
+    border-radius: 20px;
 }
 
-.left-info p {
-    text-align: left;
-}
-
-.right-info h2 {
+.portugal-info h2 {
     text-align: right;
 }
 
-.right-info p {
+.portugal-info p {
     text-align: right;
+}
+
+.portugal-content img {
+    text-align: center;
 }
 
 /* footer */
@@ -172,8 +182,8 @@ footer {
 
 .social-media i {
     font-size: 150%;
-    margin: 2%;
-    padding: 2%;
+    margin: 20px;
+    padding: 2.5px;
     color: grey;
 }
 
@@ -200,6 +210,7 @@ form {
 }
 
 legend {
+    margin-top: 20px;
     text-align: left;
     font-family: 'DynaPuff', cursive;
     text-transform: uppercase;
@@ -208,7 +219,7 @@ legend {
 }
 
 form > fieldset {
-	margin-top: 0rem;
+	margin-top: 2rem;
     margin-left: 44rem;
     text-align: left;
 }
