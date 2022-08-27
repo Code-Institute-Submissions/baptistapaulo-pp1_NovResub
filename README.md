@@ -49,8 +49,6 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 
 ## Prototype
 ![Prototype](assets/images/readme/prototype.png)
-![Prototype1](assets/images/readme/prototype1.jpg)
-![Prototype2](assets/images/readme/prototype2.jpg)
 
 ## Features
 ### Existing
@@ -104,7 +102,7 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 ![wireframe-home](assets/images/readme/wireframe-home.PNG)
 ![wireframe-brazil](assets/images/readme/wireframe-brazil.PNG)
 ![wireframe-portugal](assets/images/readme/wireframe-portugal.PNG)
-![wireframe-contact](assets/images/readme/)
+![wireframe-contact](assets/images/readme/wireframe-contact.png)
 
 ## Limitations
 
