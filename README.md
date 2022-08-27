@@ -176,7 +176,7 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 * Text for the main section was created by myself
 * Additional information gathered from official sites (for both countries)
 * ReadMe structure from Daisy McGirr GitHub repositories
-* Code ideas were gathered from **Chris Williams**, **Daisy McGirr** and **kera-cudmore** GitHub repositories
+* Code ideas were gathered from **Chris Williams**, **Daisy McGirr** and **Kera Cudmore** GitHub repositories
 
 ### Media
 * The photos used in this website were taken from Free Images
@@ -189,6 +189,6 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 * Special thanks to Student Care support (**Aoife**) for assisting me on a delicate health issue
 
 ## Comments
-the Git Pages contains two different deployments due to a change on the repository name
-`github-pages at 307921d` refers to a previous website (**baptistapaulo.github.io/baptistapaulo-pp1.github.io/**)
+The Git Pages contains two different deployments due to a change on the repository name where
+`github-pages at 307921d` refers to a previous website (**baptistapaulo.github.io/baptistapaulo-pp1.github.io/**) and
 `github-pages at bd31b90` refers to current website (**baptistapaulo.github.io/pp1/**)
