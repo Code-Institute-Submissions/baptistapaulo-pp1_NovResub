@@ -229,7 +229,7 @@ form > fieldset {
 /* for larger to medium screens size from 1200px wide */
 
 @media screen and (max-width: 1200px) {
-    #main-info, #photos {
+    #main-info, #photos,  {
         width: 60%;
         height: 1200px;
         margin: 0 auto;
