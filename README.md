@@ -78,7 +78,10 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
     * TinyPNG (for compression of your WEBP, JPEG and PNG files) [here](https://tinypng.com/).
 
 ## User-Experience-Design
+
 ### Structure
+![structure](assets/images/readme/)
+
 ### Business-Goals
 * Provide a central repository of gastronomy and cultural information.
 * Allow users to have access to accurate product details at low fees.
