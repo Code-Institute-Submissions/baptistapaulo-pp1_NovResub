@@ -63,7 +63,7 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 * Orders online for delivery of some selected products from the portfolio but this will require a secure link for payments and security compliance.
 * A blog also may be created but only accessible to members, requiring therefore a registration and sign in.
 * A database with multiple recipes may be deployed as a back-end engine to provide a feed of different products, so that every month for example, the front end can swift some of the recipes based on a voting scheme from members.
-* Gallery images with the recepy attached underneath.
+* Gallery images with the recipe attached underneath.
 
 ## Technologies
 * Languages
@@ -81,21 +81,21 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 ## User-Experience-Design
 ### Structure
 ### Business-Goals
-* Provide a central repository of gastronomy and cultural information
-* Allow users to have access to accurate product details at low fees
-* Promote a forum for discussions about culture and gastronomy
-* Create and publish a ranking of the most voted products
+* Provide a central repository of gastronomy and cultural information.
+* Allow users to have access to accurate product details at low fees.
+* Promote a forum for discussions about culture and gastronomy.
+* Create and publish a ranking of the most voted products.
 ### User-Goals
 #### First-Time-Visitor
-* Easy navigation and search for information
-* Site should be visually appealing
+* Easy navigation and search for information.
+* Site should be visually appealing.
 #### Returning-Visitor
-* Leave some feedback
-* Contact for further information
+* Leave some feedback.
+* Contact for further information.
 #### Frequent-User
-* Check if any of the topics posted has been commented
-* Find new recipes
-* Order some products
+* Check if any of the topics posted has been commented.
+* Find new recipes.
+* Order some products.
 ### Design
 #### Colour-Scheme
 #### Typography
@@ -119,24 +119,23 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 
 #### Devices
 Tested functionality and responsiveness using the below devices and browsers.
-Mobiles
-* Samsung S9
-* Samsung Note
-* Samsung A51
-Laptops
-* HP EliteBook
-* Lenovo ThinkPad
-Browsers
-* Chrome
-* Firefox
-* Edge
+* Mobiles
+    * Samsung S9
+    * Samsung Note
+    * Samsung A51
+* Laptops
+    * HP EliteBook
+    * Lenovo ThinkPad
+* Browsers
+    * Chrome
+    * Firefox
+    * Edge
 
 ### Testing-Issues
-Unfixed Bugs
-To mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. 
-* Issue 1 if any found
-* Issue 2 if any found
-No bugs identified that needs to be fixed. Styling and optimization require additional time, but functionality and user experience were the focus for this deployment.
+* Unfixed Bugs - To mention unfixed bugs and why they were not fixed.
+    * Issue 1 if any found
+    * Issue 2 if any found
+* No bugs identified that needs to be fixed. Styling and optimization require additional time, but functionality and user experience were the focus for this deployment.
 
 ## Deployment
 ### Project-Creation
@@ -164,31 +163,31 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 1. Create a new fork.
 1. This will create a duplicate of the full project in your GitHub Repository.
 ### Commands
-* `CTRL + S` was used to save the page
-* `CTRL + Z` was used to undo a change
-* `python3 -m http.server` was used to view and test site before pushing live
-* `git add` was used to add pages to the stage area
+* `CTRL + S` was used to save the page.
+* `CTRL + Z` was used to undo a change.
+* `python3 -m http.server` was used to view and test site before pushing live.
+* `git add` was used to add pages to the stage area.
 * `git commit -m "fix: message here"` was used to comit them them to github and provide a relevant message to the changes that had been made.
 * `git push` was used to push the changes upto Github for public viewing.
 
 ## Credits
 ### Content
-* Text for the main section was created by myself
-* Additional information gathered from official sites (for both countries)
-* ReadMe structure from Daisy McGirr GitHub repositories
-* Code ideas were gathered from **Chris Williams**, **Daisy McGirr** and **Kera Cudmore** GitHub repositories
+* Text for the main section was created by myself.
+* Additional information gathered from official sites (for both countries).
+* ReadMe structure from **Daisy McGirr** GitHub repositories.
+* Code ideas were gathered from **Chris Williams**, **Daisy McGirr** and **Kera Cudmore** GitHub repositories.
 
 ### Media
-* The photos used in this website were taken from Free Images
-* Pexels.com - used for images
-* Unsplash.com - used for images
-* Google.com - used for images
+* The photos used in this website were taken from some resources such as the below.
+    * Pexels.com - used for images
+    * Unsplash.com - used for images
+    * Google.com - used for images
 
 ### Acknowledgements
-* Huge thank you to my mentor **Ronan McClelland** for his guidance throughout my project
-* Special thanks to Student Care support (**Aoife**) for assisting me on a delicate health issue
+* Huge thank you to my mentor **Ronan McClelland** for his guidance throughout my project.
+* Special thanks to Student Care support (**Aoife**) for assisting me on a delicate health issue.
 
 ## Comments
 The Git Pages contains two different deployments due to a change on the repository name where
 `github-pages at 307921d` refers to a previous website (**baptistapaulo.github.io/baptistapaulo-pp1.github.io/**) and
-`github-pages at bd31b90` refers to current website (**baptistapaulo.github.io/pp1/**)
+`github-pages at bd31b90` refers to current website (**baptistapaulo.github.io/pp1/**).
