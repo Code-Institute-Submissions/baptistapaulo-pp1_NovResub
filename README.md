@@ -48,6 +48,7 @@ This site was built with basic functionality and navigation but soon, more advan
 The live website can be found [here](https://baptistapaulo.github.io/pp1/index.html).
 
 ## Prototype
+![Prototype](assets/images/readme/prototype.png)
 ![Prototype1](assets/images/readme/prototype1.jpg)
 ![Prototype2](assets/images/readme/prototype2.jpg)
 
