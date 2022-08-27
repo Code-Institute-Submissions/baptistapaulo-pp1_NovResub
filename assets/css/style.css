@@ -106,30 +106,30 @@ h1, h2 {
     background-color: lightgray;
 }
 
-.brazil {
+#brazil {
     width: 60%;
     line-height: 20px;
     margin-bottom: 50px;
     border-radius: 40px;
-    background-color: gray;
+    background-color: rgb(184, 184, 184);
     padding: 1%;
 }
 
-.brazil-info-image {
+#brazil-info-image {
     height: 75%;
     width: 75%;
     border-radius: 20px;
 }
 
-.brazil-content h2 {
+#brazil-content h2 {
     text-align: left;
 }
 
-.brazil-content p {
+#brazil-content p {
     text-align: left;
 }
 
-.brazil-content img {
+#brazil-content img {
     text-align: center;
 }
 
@@ -139,30 +139,30 @@ h1, h2 {
     background-color: lightgray;
 }
 
-.portugal {
+#portugal {
     width: 60%;
     line-height: 20px;
     margin-bottom: 50px;
     border-radius: 40px;
-    background-color: gray;
+    background-color: rgb(184, 184, 184);
     padding: 1%;
 }
 
-.portugal-info-image {
+#portugal-info-image {
     height: 50%;
     width: 75%;
     border-radius: 20px;
 }
 
-.portugal-info h2 {
+#portugal-info h2 {
     text-align: right;
 }
 
-.portugal-info p {
+#portugal-info p {
     text-align: right;
 }
 
-.portugal-content img {
+#portugal-content img {
     text-align: center;
 }
 
@@ -241,13 +241,13 @@ form > fieldset {
         margin-left: 0;
     }
 
-    .left-info-div, #brazil-image {
+    #brazil, #brazil-content {
         clear: both;
         float: center;
         width: 100%;
     }
 
-    .right-info-div, #portugal-info {
+    #portugal, #portugal-content {
         clear: both;
         float: center;
         width: 100%;
