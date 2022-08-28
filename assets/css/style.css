@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    height: 60px;
+    height: 100px;
 }
 
 footer {
@@ -251,7 +251,7 @@ form {
 
 #form-box {
     background-color: lightgray;
-    padding: 50px;
+    padding: 20px;
 }
 
 form > div {
