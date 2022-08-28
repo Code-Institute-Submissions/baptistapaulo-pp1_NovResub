@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Oswald&family=Quicksand&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
+body {
+    color: none;
 }
 
-body {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
+header {
+    height: 10%;
+}
+
+header {
+    height: 80%;
+}
+
+footer {
+    height: 10%;
 }
 
 /* headings and logo */
@@ -39,7 +43,13 @@ a:hover {
     text-decoration: underline;
 }
 
-#logo {
+.header-span {
+    padding: 5px;
+    margin: 10 10 10 10;
+    width: 33%;
+}
+
+#logo-title {
     float: left;
     font-size: 400%;
     margin-left: 5px;
@@ -186,14 +196,11 @@ a:hover {
 
 /* footer */
 
-footer {
-    height: 20px;
-}
-
 .social-media {
+    height: 10px;
     text-align: center;
     font-size: 150%;
-    margin: 20px;
+    margin-bottom: 20px;
     padding: 2.5px;
     color: gray;
 }
@@ -218,6 +225,12 @@ form {
 	margin-top: 5rem;
     margin-bottom: 5rem;
     text-align: left;
+    background-color: rgb(184, 184, 184);
+    padding: 30px;
+    border-radius: 40px;
+}
+
+#form-box {
     background-color: lightgray;
 }
 
