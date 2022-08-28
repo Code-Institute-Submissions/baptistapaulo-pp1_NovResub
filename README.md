@@ -53,16 +53,24 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 ## Features
 ### Existing
 #### Navigation-Bar
+![Logo-Menu-Bar](assets/images/readme/header-menu-and-logo.PNG)
 #### The-Header-Image
+![Header-Image-Animation](assets/images/readme/header-image-animation.PNG)
 #### Main-Section
+![](assets/images/readme/)
 #### Footer
+![Footer](assets/images/readme/footer.PNG)
 #### Galleries
+![Gallery-Brazil](assets/images/readme/gallery-brazil.PNG)
+![Gallery-Portugal](assets/images/readme/gallery-portugal.PNG)
 #### Form
+![Form](assets/images/readme/form.PNG)
 ### Left-to-Implement
 * Orders online for delivery of some selected products from the portfolio but this will require a secure link for payments and security compliance.
 * A blog also may be created but only accessible to members, requiring therefore a registration and sign in.
 * A database with multiple recipes may be deployed as a back-end engine to provide a feed of different products, so that every month for example, the front end can swift some of the recipes based on a voting scheme from members.
-* Gallery images with the recipe attached underneath.
+* Gallery images with the recipe attached underneath and/or text over the photo on mouse click (hover effect).
+* Video and/or music clips to ilustrate some of the cultural aspects of both countries. 
 
 ## Technologies
 * Languages
@@ -76,8 +84,12 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
     * Git (for version control, commits and push to GitHub)
     * Google Chrome Developer Tools (for checking compatibility, troubleshooting and editing code)
     * TinyPNG (for compression of your WEBP, JPEG and PNG files) [here](https://tinypng.com/).
+    * Stackoverflow (for searching on some topics related to HTML/CSS)
+    * W3schools (for HTML/CSS tutorials)
 
 ## User-Experience-Design
+The UX was deployed and tested only for screen sizes lower than 1200px but needs further deployment for smaller screen sizes (400px & 800px).
+This is a section of the deployment still under development.
 
 ### Structure
 ![structure](assets/images/readme/)
@@ -100,7 +112,12 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 * Order some products.
 ### Design
 #### Colour-Scheme
+* Predominant colours across all site are lightgrey and grey.
+* Black and white ocasionaly.
+* Custom rgb(184,184,184) for headers.
 #### Typography
+DynaPuff (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
+Arial (Helvetica, sans-serif) was used mostly for any other text in all sections, including the menu and form.
 #### Wireframes
 ![wireframe-home](assets/images/readme/wireframe-home.PNG)
 ![wireframe-brazil](assets/images/readme/wireframe-brazil.PNG)
@@ -108,6 +125,7 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 ![wireframe-contact](assets/images/readme/wireframe-contact.png)
 
 ## Limitations
+This website has not a customized page to acknowledge the submit form so the Code Institute form dump page was used instead. 
 
 ## Testing
 ### Test-Results
@@ -141,6 +159,8 @@ Tested functionality and responsiveness using the below devices and browsers.
 
 ## Deployment
 ### Project-Creation
+This project website was created from scratch, with no forking from any other repositories but based on the initial structure of the Code Institute walkthrough.
+Once the structure was in place, then added content and styling as the work was in progress. Some styling was gathered from **Stackoverflow** or **W3schools**.
 #### Github-Pages
 Repository
 1. Navigate to the GitHub [Repository:](https://github.com/baptistapaulo/pp1)
@@ -190,6 +210,6 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 * Special thanks to Student Care support (**Aoife**) for assisting me on a delicate health issue.
 
 ## Comments
-The Git Pages contains two different deployments due to a change on the repository name where
-`github-pages at 307921d` refers to a previous website (**baptistapaulo.github.io/baptistapaulo-pp1.github.io/**) and
-`github-pages at bd31b90` refers to current website (**baptistapaulo.github.io/pp1/**).
+The Git Pages may contain two different deployments due to a change on the repository name where
+`github-pages at 307921d` refers to a previous version of this website (**baptistapaulo.github.io/baptistapaulo-pp1.github.io/**) and
+`github-pages at bd31b90` refers to the current version (**baptistapaulo.github.io/pp1/**).

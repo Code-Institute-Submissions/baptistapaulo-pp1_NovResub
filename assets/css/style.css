@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Oswald&family=Quicksand&display=swap');
 
+/* structure main elements */
 body {
     color: none;
 }
@@ -16,8 +17,7 @@ fieldset {
     border: none;
 }
 
-/* headings and logo */
-
+/* headings and hyperlinks */
 h1, h2 {
     font-family: 'DynaPuff', cursive;
     text-transform: uppercase;
@@ -43,12 +43,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.header-span {
-    padding: 5px;
-    margin: 10 10 10 10;
-    width: 33%;
-}
-
+/* header logo-title logo-image and menu */
 #logo-title {
     float: left;
     font-size: 400%;
@@ -69,10 +64,11 @@ a:hover {
 }
 
 #menu {
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 175%;
     letter-spacing: 4px;
     float: right;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 #menu #logo #logo-image {
@@ -99,8 +95,7 @@ a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* main menu image */
-
+/* main menu image animation */
 #table-outer {
     height: 300px;
     width: 100%;
@@ -112,14 +107,13 @@ a:hover {
     width: 100%;
     background: url('../images/table-image.png') repeat center center;
 
-    /* animation zoom effect on loading page */
+/* animation zoom effect on loading page */
     animation-name: table-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /* creates animation for table image */
-
 @keyframes table-zoom {
     from{
         transform: scale(1);
@@ -129,8 +123,7 @@ a:hover {
     }
 }
 
-/* main page culture & gastronomy */
-
+/* main page culture & gastronomy section*/
 #main-section {
     font-family:Arial, Helvetica, sans-serif;
     background-color: lightgrey;
@@ -195,8 +188,7 @@ div img {
     text-align: center;
 }
 
-/* footer */
-
+/* footer social media icons */
 .social-media {
     height: 10px;
     text-align: center;
@@ -206,8 +198,7 @@ div img {
     color: gray;
 }
 
-/* photos */
-
+/* photos for brazil and portugal pages */
 #photos {
     clear: both;
     line-height: 0;
@@ -236,8 +227,7 @@ span > img {
     width: 100%;
 }
 
-/* contact form */
-
+/* contact form section */
 form {
 	margin-top: 2rem;
     margin-bottom: 2rem;
@@ -245,11 +235,12 @@ form {
     margin-right: 30rem;
     text-align: left;
     background-color: rgb(184, 184, 184);
-    padding: 10px;
+    padding: 20px;
     border-radius: 40px;
 }
 
 #form-box {
+    font-family:Arial, Helvetica, sans-serif;
     background-color: lightgray;
     padding: 20px;
 }
@@ -295,24 +286,24 @@ button {
 
 }
   
-  .button1:hover {
+.button1:hover {
     background-color: white;
     color: black;
-  }
+}
   
-  .button2 {
+.button2 {
     background-color: darkgray; 
     color: black; 
     border: 2px solid lightgray;
     margin-left: 2px;
-  }
+}
   
-  .button2:hover {
+.button2:hover {
     background-color: white;
     color: black;
-  }
+}
 
-  input[type='radio']:after {
+input[type='radio']:after {
     width: 10px;
     height: 10px;
     border-radius: 10px;
@@ -338,9 +329,9 @@ input[type='radio']:checked:after {
         display: inline-block;
         visibility: visible;
         border: 2px solid rgb(184, 184, 184);
-    }
+}
 
-    input[type='checkbox']:after {
+input[type='checkbox']:after {
         width: 10px;
         height: 10px;
         top: 0px;
@@ -351,9 +342,9 @@ input[type='radio']:checked:after {
         display: inline-block;
         visibility: visible;
         border: 2px solid rgb(184, 184, 184);
-    }
+}
     
-    input[type='checkbox']:checked:after {
+input[type='checkbox']:checked:after {
             width: 10px;
             height: 10px;
             top: 0px;
@@ -364,34 +355,33 @@ input[type='radio']:checked:after {
             display: inline-block;
             visibility: visible;
             border: 2px solid rgb(184, 184, 184);
-        }
+}
 
 /* media queries */
 
 /* for larger to medium screens size from 1200px wide */
-
 @media screen and (max-width: 1200px) {
-    #main-info, #photos,  {
+#main-info, #photos, {
         width: 60%;
         height: 1200px;
         margin: 0 auto;
-    }
+}
 
-    form > fieldset {
+form > fieldset {
         width: 60%;
         height: 1200px;
         margin-left: 0;
-    }
+}
 
-    #brazil, #brazil-content {
+#brazil, #brazil-content {
         clear: both;
         float: center;
         width: 100%;
-    }
+}
 
-    #portugal, #portugal-content {
+#portugal, #portugal-content {
         clear: both;
         float: center;
         width: 100%;
-    }
+}
 }
