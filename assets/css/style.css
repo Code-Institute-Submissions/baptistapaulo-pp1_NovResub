@@ -131,29 +131,30 @@ a:hover {
 /* main page culture & gastronomy */
 
 #main-section {
-    height: 600px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
 }
 
 #brazil-content {
-    padding-top: 30px;
+    padding: 10px;
     float: right;
-    background-color: lightgray;
-}
-
-#brazil {
-    width: 60%;
-    line-height: 20px;
-    margin-bottom: 50px;
-    border-radius: 40px;
     background-color: rgb(184, 184, 184);
-    padding: 1%;
+    margin: 50px;
+    border-radius: 40px;
 }
 
 #brazil-info-image {
-    height: 75%;
-    width: 75%;
+    height: 20%;
+    width: 30%;
     border-radius: 20px;
 }
+
+div img {
+    border-radius: 10px;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    }
 
 #brazil-content h2 {
     text-align: left;
@@ -168,23 +169,16 @@ a:hover {
 }
 
 #portugal-content {
-    padding-top: 30px;
+    padding: 10px;
     float: right;
-    background-color: lightgray;
-}
-
-#portugal {
-    width: 60%;
-    line-height: 20px;
-    margin-bottom: 50px;
-    border-radius: 40px;
     background-color: rgb(184, 184, 184);
-    padding: 1%;
+    margin: 50px;
+    border-radius: 40px;
 }
 
 #portugal-info-image {
-    height: 50%;
-    width: 75%;
+    height: 20%;
+    width: 30%;
     border-radius: 20px;
 }
 
