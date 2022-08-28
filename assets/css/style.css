@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    height: 20px;
+    height: 60px;
 }
 
 footer {
@@ -173,7 +173,7 @@ div img {
     padding: 10px;
     float: right;
     background-color: rgb(184, 184, 184);
-    margin: 25px 50px 50px 500px;
+    margin: 25px 50px 25px 500px;
     border-radius: 40px;
 }
 
@@ -214,15 +214,15 @@ div img {
     column-count: 3;
     column-gap: 0;
     align-content: center;
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 
 div > span {
-    padding: 20px 40px;
+    padding: 20px;
     display: inline-block;
-    margin: 4px 2px;
+    margin: 40px 40px 40px 140px;
     border-radius: 20px;
-    background-color: gray;
+    background-color: rgb(184, 184, 184);
 } 
 
 span > img {
@@ -241,18 +241,17 @@ span > img {
 form {
 	margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 40rem;
-    margin-right: 20rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
     text-align: left;
     background-color: rgb(184, 184, 184);
     padding: 10px;
     border-radius: 40px;
-
 }
 
 #form-box {
     background-color: lightgray;
-    padding: 20px;
+    padding: 50px;
 }
 
 form > div {
@@ -270,6 +269,11 @@ legend {
     letter-spacing: 4px;
     color: black;
 }
+
+.contact {
+    width: 350px;
+    height: 15px;
+  }
 
 button {
     padding: 5px 10px;
@@ -304,6 +308,60 @@ button {
     background-color: white;
     color: black;
   }
+
+  input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: 0px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(184, 184, 184);
+}
+
+input[type='radio']:checked:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        top: 0px;
+        left: -1px;
+        position: relative;
+        background-color: black;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid rgb(184, 184, 184);
+    }
+
+    input[type='checkbox']:after {
+        width: 10px;
+        height: 10px;
+        top: 0px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid rgb(184, 184, 184);
+    }
+    
+    input[type='checkbox']:checked:after {
+            width: 10px;
+            height: 10px;
+            top: 0px;
+            left: -1px;
+            position: relative;
+            background-color: black;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+            border: 2px solid rgb(184, 184, 184);
+        }
 
 /* media queries */
 
