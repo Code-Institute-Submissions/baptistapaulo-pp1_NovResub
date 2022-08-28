@@ -22,18 +22,18 @@ h1, h2 {
 }
 
 a:link {
-    color: black;
+    color: gray;
     background-color: transparent;
     text-decoration: none;
 }
   
-  a:visited {
-    color: black;
+a:visited {
+    color: gray;
     background-color: transparent;
     text-decoration: none;
 }
   
-  a:hover {
+a:hover {
     color: white;
     background-color: transparent;
     text-decoration: underline;
@@ -192,17 +192,10 @@ footer {
 
 .social-media {
     text-align: center;
-}
-
-.social-media > li {
-    display: inline;
-}
-
-.social-media i {
     font-size: 150%;
     margin: 20px;
     padding: 2.5px;
-    color: grey;
+    color: gray;
 }
 
 /* photos */
