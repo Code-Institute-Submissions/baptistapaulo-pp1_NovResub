@@ -13,38 +13,28 @@
     <script src="https://kit.fontawesome.com/10e1a27b71.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <span class="header-span">
-                <a href="index.html">
-                    <h1 id="logo-title">F<i class="fa-solid fa-burger"></i><i class="fa-solid fa-burger"></i>d Lovers</i></h1>
-                </a>
-            </span>
-            <span class="header-span">
-                <img id="logo-image" src="assets/images/flags-portugal-and-brazil-on-a-white-background.png">
-            </span>
-            <span class="header-span">
-                <nav>
-                    <ul id="menu">
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                        <li>
-                            <a href="portugal.html">Portugal</a>
-                        </li>
-                        <li>
-                            <a href="brazil.html">Brazil</a>
-                        </li>
-                        <li>
-                            <a href="index.html" class="active">Home</a>
-                        </li>
-                    </ul>
-                </nav>
-            </span>
-        </div>
+    <header id="header">
+        <a href="index.html" id="logo-title">F<i class="fa-solid fa-burger"></i><i class="fa-solid fa-burger"></i>d Lovers</a>
+        <img id="logo-image" src="assets/images/flags-portugal-and-brazil-on-a-white-background.png" alt="brazilian-portuguese-flags-together">
+        
+            <ul id="menu">
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+                <li>
+                    <a href="portugal.html">Portugal</a>
+                </li>
+                <li>
+                    <a href="brazil.html">Brazil</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        
     </header>
 	
-	<section id="form-box">
+	<div id="form-box">
 		<form action="https://formdump.codeinstitute.net" method="POST" target="_blank">
 			<div>
 				<fieldset>
@@ -85,36 +75,27 @@
 			<div>
 				<fieldset>
 					<legend>Survey</legend>
-						<p>How many days a week you go to a restaurant?</p>
-
+					<label for="Survey">How many days a week you go to a restaurant?</label>
 						<input required id="0-2days-radio" name="rest-a-day" value="0-2days" type="radio">
 						<label for="0-2days-radio">0 to 2 days</label>
-
-						<input required id="3-5days-radio" name="rest-a-day" value="3-5days" type="radio">
+ 						<input required id="3-5days-radio" name="rest-a-day" value="3-5days" type="radio">
 						<label for="3-5days-radio">3 to 5 days</label>
-
 						<input required id="6-7dayss-radio" name="rest-a-day" value="6-7days" type="radio">
-						<label for="6-7dayss-radio">6 to 7 days</label>
+						<label for="6-7dayss-radio">6 to 7 days</label><br>
 
-						<p>How many days a week you eat at home?</p>
-
+					<label for="Survey">How many days a week you eat at home?</label>
 						<input required id="2-days-radio" name="home-a-day" value="2-days" type="radio">
 						<label for="2-days-radio">0 to 2 days</label>
-
 						<input required id="5-days-radio" name="home-a-day" value="5-days" type="radio">
 						<label for="5-days-radio">3 to 5 days</label>
-
 						<input required id="7-dayss-radio" name="home-a-day" value="7-days" type="radio">
-						<label for="7-dayss-radio">6 to 7 days</label>
+						<label for="7-dayss-radio">6 to 7 days</label><br>
 					
-						<p>Where do you prefer to eat?</p>
-
+					<label for="Survey">Where do you prefer to eat?</label>
 						<input type="checkbox" id="restaurant-checkbox" name="restaurant">
 						<label for="restaurant-checkbox">Restaurant</label>
-						
 						<input type="checkbox" id="home-checkbox" name="home">
 						<label for="home-checkbox">Home</label>
-						
 						<input type="checkbox" id="office-checkbox" name="office">
 						<label for="office-checkbox">Office</label>
 				</fieldset><br>
@@ -132,31 +113,16 @@
 				<button class="button2" type="reset">Reset Form</button>
 			</div>
 		</form>
-	</section>
+	</div>
     <footer>
 		<div class="social-media">
-				<div>				
-					<span>
-						<a href="https://facebook.com" target="_blank" rel="noopener"
-							aria-label="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
-					</span>
-					<span>
-						<a href="https://twitter.com" target="_blank" rel="noopener"
-							aria-label="Visit our Twitter page"><i class="fa-brands fa-twitter"></i></a>
-					</span>
-					<span>
-						<a href="https://youtube.com" target="_blank" rel="noopener"
-							aria-label="Visit our YouTube page"><i class="fa-brands fa-youtube"></i></a>
-					</span>
-					<span>
-						<a href="https://instagram.com" target="_blank" rel="noopener"
-							aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
-					</span>
-					<span>
-						<a href="https://linkedin.com" target="_blank" rel="noopener"
-							aria-label="Visit our LinkedIn page"><i class="fa-brands fa-linkedin"></i></a>
-					</span>
-				</div>
+			<div>					
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener"aria-label="Visit our Twitter page"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="Visit our LinkedIn page"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
 			<div>
 				<p>&copy; 2022 by Paulo Baptista</p>
 			</div>

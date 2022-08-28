@@ -5,15 +5,15 @@ body {
 }
 
 header {
-    height: 10%;
-}
-
-header {
-    height: 80%;
+    height: 20px;
 }
 
 footer {
-    height: 10%;
+    height: 10px;
+}
+
+fieldset {
+    border: none;
 }
 
 /* headings and logo */
@@ -53,6 +53,10 @@ a:hover {
     float: left;
     font-size: 400%;
     margin-left: 5px;
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
 }
 
 #logo-image {
@@ -66,10 +70,11 @@ a:hover {
 #menu {
     font-size: 175%;
     letter-spacing: 4px;
+    float: right;
     margin-right: 40px;
 }
 
-#menu, #logo {
+#menu #logo #logo-image {
     line-height: 100px;
 }
 
@@ -86,6 +91,7 @@ a:hover {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+    font-weight: bold;
 }
 
 .active {
@@ -212,8 +218,24 @@ a:hover {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
+    align-content: center;
     background-color: lightgray;
 }
+
+div > span {
+    padding: 20px 40px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 20px;
+    background-color: gray;
+} 
+
+span > img {
+    border-radius: 10px;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    }
 
 #photos > img {
     width: 100%;
@@ -222,25 +244,29 @@ a:hover {
 /* contact form */
 
 form {
-	margin-top: 5rem;
-    margin-bottom: 5rem;
+	margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 40rem;
+    margin-right: 20rem;
     text-align: left;
     background-color: rgb(184, 184, 184);
-    padding: 30px;
+    padding: 10px;
     border-radius: 40px;
+
 }
 
 #form-box {
     background-color: lightgray;
+    padding: 20px;
 }
 
 form > div {
-	margin-top: 1rem;
-    margin-left: 45rem;
+    text-align: left;
 }
 
 form > fieldset {
     text-align: left;
+
 }
 
 legend {
