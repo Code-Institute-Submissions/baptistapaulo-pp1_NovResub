@@ -27,6 +27,7 @@
 * [Testing](#Testing)
     * [Test Results](#Test-Results)
         * [Validators](#Validators)
+        * [Lighthouse](#Lighthouse)
         * [Devices](#Devices)
     * [Testing Issues](#Testing-Issues)
 * [Deployment](#Deployment)
@@ -116,8 +117,8 @@ This is a section of the deployment still under development.
 * Black and white ocasionaly.
 * Custom rgb(184,184,184) for headers.
 #### Typography
-DynaPuff (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
-Arial (Helvetica, sans-serif) was used mostly for any other text in all sections, including the menu and form.
+**DynaPuff** (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
+**Arial** (Helvetica, sans-serif) was used mostly for any other text in all sections, including the menu and form.
 #### Wireframes
 ![wireframe-home](assets/images/readme/wireframe-home.PNG)
 ![wireframe-brazil](assets/images/readme/wireframe-brazil.PNG)
@@ -125,7 +126,15 @@ Arial (Helvetica, sans-serif) was used mostly for any other text in all sections
 ![wireframe-contact](assets/images/readme/wireframe-contact.png)
 
 ## Limitations
-This website has not a customized page to acknowledge the submit form so the Code Institute form dump page was used instead. 
+This website has not a customized page to acknowledge the submit form so the Code Institute form dump page was used instead.
+Currently, the website is only optimized for screen sizes greater than 1600px.
+
+Views of all pages on a screen size greater than 1600px.
+![home-1600px-part1](assets/images/readme/home-1600px-part1.PNG)
+![home-1600px-part2](assets/images/readme/home-1600px-part2.PNG)
+![brazil-1600px](assets/images/readme/brazil-1600px.PNG)
+![portugal-1600px](assets/images/readme/portugal-1600px.PNG)
+![contact-1600px](assets/images/readme/contact-1600px.PNG)
 
 ## Testing
 ### Test-Results
@@ -136,6 +145,11 @@ This website has not a customized page to acknowledge the submit form so the Cod
 * Chrome – Developer Tools
 * Am I Responsive [here](https://ui.dev/amiresponsive).
 ![responsive](assets/images/readme/responsive-results.PNG)
+#### Lighthouse
+![lighthouse-index-results-performance](assets/images/readme/lighthouse-index-results-performance.PNG)
+![lighthouse-brazil-results-performance](assets/images/readme/lighthouse-brazil-results-performance.PNG)
+![lighthouse-portugal-results-performance](assets/images/readme/lighthouse-portugal-results-performance.PNG)
+![lighthouse-contact-results-performance](assets/images/readme/lighthouse-contact-results-performance.PNG)
 
 #### Devices
 Tested functionality and responsiveness using the below devices and browsers.
@@ -152,10 +166,8 @@ Tested functionality and responsiveness using the below devices and browsers.
     * Edge
 
 ### Testing-Issues
-* Unfixed Bugs - To mention unfixed bugs and why they were not fixed.
-    * Issue 1 if any found
-    * Issue 2 if any found
-* No bugs identified that needs to be fixed. Styling and optimization require additional time, but functionality and user experience were the focus for this deployment.
+* No bugs identified that needs to be fixed.
+* Further styling and optimization (different screen size) requires additional time.
 
 ## Deployment
 ### Project-Creation
