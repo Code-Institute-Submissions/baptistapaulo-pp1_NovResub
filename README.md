@@ -102,6 +102,7 @@ The UX was deployed and tested only for screen sizes greater than 1200px but nee
 This is a section of the deployment still under development.
 
 ### Structure
+![Structure](assets/images/readme/structure.png)
 [Table-of-Contents](#Table-of-Contents)
 
 ### Business-Goals
