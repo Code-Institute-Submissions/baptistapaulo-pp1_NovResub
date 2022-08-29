@@ -47,11 +47,13 @@ The portfolio of recipes will provide some basic information about each product 
 This site was built with basic functionality and navigation but soon, more advanced features will be deployed such as online orders, request of recipes, requests for further information regarding specific locations (travelling, hotels) and feedback from users. 
 
 The live website can be found [here](https://baptistapaulo.github.io/pp1/index.html).
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Prototype
 ![Prototype](assets/images/readme/prototype.png)
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Features
 ### Existing
@@ -75,7 +77,8 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 * A database with multiple recipes may be deployed as a back-end engine to provide a feed of different products, so that every month for example, the front end can swift some of the recipes based on a voting scheme from members.
 * Gallery images with the recipe attached underneath and/or text over the photo on mouse click (hover effect).
 * Video and/or music clips to ilustrate some of the cultural aspects of both countries.
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Technologies
 * Languages
@@ -91,10 +94,11 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
     * TinyPNG (for compression of your WEBP, JPEG and PNG files) [here](https://tinypng.com/).
     * Stackoverflow (for searching on some topics related to HTML/CSS)
     * W3schools (for HTML/CSS tutorials)
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## User-Experience-Design
-The UX was deployed and tested only for screen sizes lower than 1200px but needs further deployment for smaller screen sizes (400px & 800px).
+The UX was deployed and tested only for screen sizes greater than 1200px but needs further deployment for smaller screen sizes (400px & 800px).
 This is a section of the deployment still under development.
 
 ### Structure
@@ -129,7 +133,8 @@ This is a section of the deployment still under development.
 ![wireframe-brazil](assets/images/readme/wireframe-brazil.PNG)
 ![wireframe-portugal](assets/images/readme/wireframe-portugal.PNG)
 ![wireframe-contact](assets/images/readme/wireframe-contact.png)
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Limitations
 This website has not a customized page to acknowledge the submit form so the Code Institute form dump page was used instead.
@@ -141,7 +146,8 @@ Views of all pages on a screen size greater than 1600px.
 ![brazil-1600px](assets/images/readme/brazil-1600px.PNG)
 ![portugal-1600px](assets/images/readme/portugal-1600px.PNG)
 ![contact-1600px](assets/images/readme/contact-1600px.PNG)
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Testing
 ### Test-Results
@@ -175,7 +181,8 @@ Tested functionality and responsiveness using the below devices and browsers.
 ### Testing-Issues
 * No bugs identified that needs to be fixed.
 * Further styling and optimization (different screen size) requires additional time.
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Deployment
 ### Project-Creation
@@ -211,7 +218,8 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 * `git add` was used to add pages to the stage area.
 * `git commit -m "fix: message here"` was used to comit them them to github and provide a relevant message to the changes that had been made.
 * `git push` was used to push the changes upto Github for public viewing.
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Credits
 ### Content
@@ -229,10 +237,12 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 ### Acknowledgements
 * Huge thank you to my mentor **Ronan McClelland** for his guidance throughout my project.
 * Special thanks to Student Care support (**Aoife**) for assisting me on a delicate health issue.
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
 
 ## Comments
 The Git Pages may contain two different deployments due to a change on the repository name where
 `github-pages at 307921d` refers to a previous version of this website (**baptistapaulo.github.io/baptistapaulo-pp1.github.io/**) and
 `github-pages at bd31b90` refers to the current version (**baptistapaulo.github.io/pp1/**).
-[Table of Contents](#Table-of-Contents)
+
+[<Top>](#Table-of-Contents)
