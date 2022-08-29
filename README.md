@@ -184,6 +184,7 @@ Tested functionality and responsiveness using the below devices and browsers.
     * on Edge and Firefox browsers, the footer icons do not inherit the class social-media colour therefore not visible unless moving mouse over the icons but this is not affected in Chrome so further testing required in order to fix this.
     * on Edge and Firefox browsers, the form radius and checkbox buttons do not inherit the input custom options therefore they show default values but this is not affected in Chrome so further testing required in order to fix this.
     * on mobile devices and tablets, pages do not load properly (layout not resized) with impact on UXD but this can be fixed by different media screen sizes in the CSS and with further testing on different platforms.
+    * both HTML and CSS validators pointed to some errors (and warnings) but not all of them were fixed so further testing required to eliminate these errors.
 * Further styling and optimization (different screen size) to improve UX requires additional time.
 
 [Table-of-Contents](#Table-of-Contents)
