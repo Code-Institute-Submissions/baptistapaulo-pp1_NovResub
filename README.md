@@ -48,12 +48,12 @@ This site was built with basic functionality and navigation but soon, more advan
 
 The live website can be found [here](https://baptistapaulo.github.io/pp1/index.html).
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Prototype
 ![Prototype](assets/images/readme/prototype.png)
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Features
 ### Existing
@@ -78,7 +78,7 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 * Gallery images with the recipe attached underneath and/or text over the photo on mouse click (hover effect).
 * Video and/or music clips to ilustrate some of the cultural aspects of both countries.
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Technologies
 * Languages
@@ -95,14 +95,14 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
     * Stackoverflow (for searching on some topics related to HTML/CSS)
     * W3schools (for HTML/CSS tutorials)
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## User-Experience-Design
 The UX was deployed and tested only for screen sizes greater than 1200px but needs further deployment for smaller screen sizes (400px & 800px).
 This is a section of the deployment still under development.
 
 ### Structure
-![structure](assets/images/readme/structure.png)
+[Table-of-Contents](#Table-of-Contents)
 
 ### Business-Goals
 * Provide a central repository of gastronomy and cultural information.
@@ -134,7 +134,7 @@ This is a section of the deployment still under development.
 ![wireframe-portugal](assets/images/readme/wireframe-portugal.PNG)
 ![wireframe-contact](assets/images/readme/wireframe-contact.png)
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Limitations
 This website has not a customized page to acknowledge the submit form so the Code Institute form dump page was used instead.
@@ -147,7 +147,7 @@ Views of all pages on a screen size greater than 1600px.
 ![portugal-1600px](assets/images/readme/portugal-1600px.PNG)
 ![contact-1600px](assets/images/readme/contact-1600px.PNG)
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Testing
 ### Test-Results
@@ -182,7 +182,7 @@ Tested functionality and responsiveness using the below devices and browsers.
 * No bugs identified that needs to be fixed.
 * Further styling and optimization (different screen size) requires additional time.
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Deployment
 ### Project-Creation
@@ -219,7 +219,7 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 * `git commit -m "fix: message here"` was used to comit them them to github and provide a relevant message to the changes that had been made.
 * `git push` was used to push the changes upto Github for public viewing.
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Credits
 ### Content
@@ -238,11 +238,11 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 * Huge thank you to my mentor **Ronan McClelland** for his guidance throughout my project.
 * Special thanks to Student Care support (**Aoife**) for assisting me on a delicate health issue.
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 ## Comments
 The Git Pages may contain two different deployments due to a change on the repository name where
 `github-pages at 307921d` refers to a previous version of this website (**baptistapaulo.github.io/baptistapaulo-pp1.github.io/**) and
 `github-pages at bd31b90` refers to the current version (**baptistapaulo.github.io/pp1/**).
 
-[<Top>](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
