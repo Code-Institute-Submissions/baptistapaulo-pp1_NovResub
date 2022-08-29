@@ -44,9 +44,9 @@
 ## Purpose
 The idea behind this site was to bring some knowledge about the Portuguese and Brazilian gastronomy. There are a lot of sites with massive information regarding culture and food from both countries but on this one, the focus is to centralize and put together some of the most common and representative products.
 The portfolio of recipes will provide some basic information about each product and then, if the user wants to get additional information, should contact us by filling the form. 
-This site was built with basic functionality and navigation but soon, more advanced features will be deployed such as online orders, request of recipes, requests for further information regarding specific locations (travelling, hotels) and feedback from users. 
+This site was built with basic functionality and navigation but soon, more advanced features will be deployed such as online orders, request of recipes, requests for further information regarding specific locations (travelling, hotels) and feedback from users (blog). 
 
-The live website can be found [here](https://baptistapaulo.github.io/pp1/index.html).
+The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 
 [Table-of-Contents](#Table-of-Contents)
 
@@ -98,7 +98,7 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 [Table-of-Contents](#Table-of-Contents)
 
 ## User-Experience-Design
-The UX was deployed and tested only for screen sizes greater than 1200px but needs further deployment for smaller screen sizes (400px & 800px).
+The UX was deployed and tested only for screen sizes greater than 1600px but needs further deployment for smaller screen sizes (480px & 1000px).
 This is a section of the deployment still under development.
 
 ### Structure
