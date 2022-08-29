@@ -359,29 +359,208 @@ input[type='checkbox']:checked:after {
 
 /* media queries */
 
-/* for larger to medium screens size from 1200px wide */
-@media screen and (max-width: 1200px) {
-#main-info, #photos, {
-        width: 60%;
-        height: 1200px;
-        margin: 0 auto;
+/* for larger to medium screens size from 1000px wide and down */
+@media screen and (max-width: 1000px) {
+#logo-image {
+        margin-left: 200px;
+    }
+
+form {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: left;
+    background-color: rgb(184, 184, 184);
+    padding: 15px;
+    border-radius: 30px;
+}
+    
+#form-box {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    padding: 15px;
+}
+    
+
+div > span {
+    padding: 15px;
+    display: inline-block;
+    margin: 30px 30px 30px 110px;
+    border-radius: 15px;
+    background-color: rgb(184, 184, 184);
+} 
+
+span > img {
+    border-radius: 10px;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    }
+
+#photos > img {
+    width: 80%;
+}
 }
 
-form > fieldset {
-        width: 60%;
-        height: 1200px;
-        margin-left: 0;
-}
+/* for medium screen sizes from min-width: 480px till max-width: 1000px */
+@media screen and (min-width: 480px) and (max-width: 1000px) {
+    #logo-image {
+            margin-left: 200px;
+        }
+        
+    #menu {
+        font-size: 150%;
+        letter-spacing: 3px;
+    }
+    
+    #logo-title {
+        font-size: 300%;
+        letter-spacing: 4px;
+    }
 
-#brazil, #brazil-content {
-        clear: both;
-        float: center;
-        width: 100%;
-}
+    form {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+        text-align: left;
+        background-color: rgb(184, 184, 184);
+        padding: 15px;
+        border-radius: 30px;
+    }
+        
+    #form-box {
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: lightgray;
+        padding: 15px;
+    }
+        
+    
+    div > span {
+        padding: 15px;
+        display: inline-block;
+        margin: 30px 30px 30px 110px;
+        border-radius: 15px;
+        background-color: rgb(184, 184, 184);
+    } 
+    
+    span > img {
+        border-radius: 10px;
+        width:  200px;
+        height: 200px;
+        object-fit: cover;
+        }
+    
+    #photos > img {
+        width: 80%;
+    }
+    }
 
-#portugal, #portugal-content {
-        clear: both;
-        float: center;
-        width: 100%;
-}
-}
+/* for smaller screens size from 0px till 480px */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    #logo-image {
+            margin-left: 200px;
+        }
+
+    #menu {
+            font-size: 100%;
+            letter-spacing: 2px;
+    }
+        
+    #logo-title {
+            font-size: 200%;
+            letter-spacing: 3px;
+    }
+    
+    form {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+        text-align: left;
+        background-color: rgb(184, 184, 184);
+        padding: 15px;
+        border-radius: 30px;
+    }
+        
+    #form-box {
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: lightgray;
+        padding: 15px;
+    }
+        
+    
+    div > span {
+        padding: 15px;
+        display: inline-block;
+        margin: 30px 30px 30px 110px;
+        border-radius: 15px;
+        background-color: rgb(184, 184, 184);
+    } 
+    
+    span > img {
+        border-radius: 10px;
+        width:  200px;
+        height: 200px;
+        object-fit: cover;
+        }
+    
+    #photos > img {
+        width: 80%;
+    }
+    }
+
+    /* for smaller screens size lower than 480px */
+    @media screen and (max-width: 1200px) {
+        #logo-image {
+                margin-left: 200px;
+            }
+
+        #menu {
+            font-size: 175%;
+            letter-spacing: 4px;
+        }
+        
+        #logo-title {
+            font-size: 400%;
+            letter-spacing: 5px;
+        }
+        
+        form {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-left: 20rem;
+            margin-right: 20rem;
+            text-align: left;
+            background-color: rgb(184, 184, 184);
+            padding: 15px;
+            border-radius: 30px;
+        }
+            
+        #form-box {
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            padding: 15px;
+        }
+            
+        
+        div > span {
+            padding: 15px;
+            display: inline-block;
+            margin: 30px 30px 30px 110px;
+            border-radius: 15px;
+            background-color: rgb(184, 184, 184);
+        } 
+        
+        span > img {
+            border-radius: 10px;
+            width:  200px;
+            height: 200px;
+            object-fit: cover;
+            }
+        
+        #photos > img {
+            width: 80%;
+        }
+        }
