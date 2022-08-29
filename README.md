@@ -58,7 +58,8 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/index.h
 #### The-Header-Image
 ![Header-Image-Animation](assets/images/readme/header-image-animation.PNG)
 #### Main-Section
-![](assets/images/readme/)
+![main-section-part1](assets/images/readme/main-section-part1.png)
+![main-section-part2](assets/images/readme/main-section-part2.png)
 #### Footer
 ![Footer](assets/images/readme/footer.PNG)
 #### Galleries
@@ -93,7 +94,7 @@ The UX was deployed and tested only for screen sizes lower than 1200px but needs
 This is a section of the deployment still under development.
 
 ### Structure
-![structure](assets/images/readme/)
+![structure](assets/images/readme/structure.png)
 
 ### Business-Goals
 * Provide a central repository of gastronomy and cultural information.
