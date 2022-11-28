@@ -22,17 +22,17 @@ header {
     background-color: rgba(32, 85, 25, 0.5);
 }
 
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 footer {
     float: left;
     margin-left: 10%;
     margin-right: 10%;
     height: 105px;
     background-color: rgba(32, 85, 25, 0.5);
-}
-
-section {
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 /* headings and hyperlinks */
@@ -80,14 +80,6 @@ a:hover {
     text-decoration: none;
 }
 
-#logo-image {
-    height: 5em;
-    width: 10em;
-    float: left;
-    margin-left: 330px;
-    margin-top: 10px;
-}
-
 #menu {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 175%;
@@ -96,7 +88,7 @@ a:hover {
     margin-right: 10px;
 }
 
-#menu #logo #logo-image {
+#menu #logo {
     line-height: 100px;
 }
 
@@ -140,26 +132,33 @@ a:hover {
 /* creates animation for table image */
 @keyframes table-zoom {
     from{
-        transform: scale(1.8);
+        transform: scale(2.0);
     }
     to{
-        transform: scale(2.2);
+        transform: scale(2.5);
     }
 }
 
 /* main page culture & gastronomy section*/
 #main-section {
     font-family:Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
+    background-color: rgb(235, 221, 102);
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #brazil-content {
-    padding: 20px;
-    float: right;
-    background-color: rgb(184, 184, 184);
-    margin: 50px 500px 25px 50px;
+    padding: 50px 50px 25px 50px;
+    background-color: rgba(101, 216, 85, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 66%;
     border-radius: 40px;
+    
 }
+
 
 #brazil-info-image {
     height: 20%;
@@ -187,10 +186,13 @@ div img {
 }
 
 #portugal-content {
-    padding: 20px;
-    float: right;
-    background-color: rgb(184, 184, 184);
-    margin: 25px 50px 25px 500px;
+    padding: 50px 50px 25px 50px;
+    background-color: rgba(101, 216, 85, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 66%;
     border-radius: 40px;
 }
 
@@ -210,6 +212,28 @@ div img {
 
 #portugal-content img {
     text-align: center;
+}
+
+.food-media {
+    padding: 10% 10% 10% 10%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food-video-container {
+    width: 100%;
+    padding: 10% 10% 10% 10%;
+    position: relative;
+
+}
+
+.food-video-container iframe {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
 }
 
 /* footer social media icons */
