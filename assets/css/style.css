@@ -22,7 +22,7 @@ header {
     background-color: rgba(32, 85, 25, 0.5);
 }
 
-section {
+main {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -143,8 +143,6 @@ a:hover {
 #main-section {
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(235, 221, 102);
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 #brazil-content {
@@ -226,7 +224,7 @@ div img {
     width: 100%;
     padding: 10% 10% 10% 10%;
     position: relative;
-
+    border: 20%;
 }
 
 .food-video-container iframe {
