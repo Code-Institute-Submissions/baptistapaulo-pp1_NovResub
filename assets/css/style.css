@@ -122,15 +122,14 @@ a:hover {
 
 /* main menu image animation */
 #table-outer {
-    height: 300px;
     width: 100%;
     overflow: hidden;
 }
 
 #table-image {
-    height: 300px;
+    height: 400px;
     width: 100%;
-    background: url('../images/table-image.png') repeat center center;
+    background: url('../images/table-image.png') no-repeat center;
 
 /* animation zoom effect on loading page */
     animation-name: table-zoom;
@@ -141,10 +140,10 @@ a:hover {
 /* creates animation for table image */
 @keyframes table-zoom {
     from{
-        transform: scale(1);
+        transform: scale(1.8);
     }
     to{
-        transform: scale(1.2);
+        transform: scale(2.2);
     }
 }
 
