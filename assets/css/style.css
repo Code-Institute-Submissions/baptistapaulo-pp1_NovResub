@@ -51,19 +51,19 @@ p {
 }
 
 a:link {
-    color: white;
+    color: red;
     background-color: transparent;
     text-decoration: none;
 }
   
 a:visited {
-    color: lightgrey;
+    color: rgb(51, 136, 40);
     background-color: transparent;
     text-decoration: none;
 }
   
 a:hover {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
 }
