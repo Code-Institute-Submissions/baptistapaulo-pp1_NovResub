@@ -73,7 +73,7 @@ a:hover {
 #logo-title {
     float: left;
     font-size: 400%;
-    margin-left: 5px;
+    margin-left: 40px;
     font-family: 'DynaPuff', cursive;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -86,7 +86,7 @@ a:hover {
     font-size: 175%;
     letter-spacing: 4px;
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #menu #logo {
