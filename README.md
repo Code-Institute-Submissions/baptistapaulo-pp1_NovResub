@@ -51,26 +51,26 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 [Table-of-Contents](#Table-of-Contents)
 
 ## Prototype
-![Prototype](assets/images/readme/prototype.png)
+![Prototype](assets/readme/prototype.png)
 
 [Table-of-Contents](#Table-of-Contents)
 
 ## Features
 ### Existing
 #### Navigation-Bar
-![Logo-Menu-Bar](assets/images/readme/header-menu-and-logo.PNG)
+![Logo-Menu-Bar](assets/readme/header-menu-and-logo.PNG)
 #### The-Header-Image
-![Header-Image-Animation](assets/images/readme/header-image-animation.PNG)
+![Header-Image-Animation](assets/readme/header-image-animation.PNG)
 #### Main-Section
-![main-section-part1](assets/images/readme/main-section-part1.png)
-![main-section-part2](assets/images/readme/main-section-part2.png)
+![main-section-part1](assets/readme/main-section-part1.png)
+![main-section-part2](assets/readme/main-section-part2.png)
 #### Footer
-![Footer](assets/images/readme/footer.PNG)
+![Footer](assets/readme/footer.PNG)
 #### Galleries
-![Gallery-Brazil](assets/images/readme/gallery-brazil.PNG)
-![Gallery-Portugal](assets/images/readme/gallery-portugal.PNG)
+![Gallery-Brazil](assets/readme/gallery-brazil.PNG)
+![Gallery-Portugal](assets/readme/gallery-portugal.PNG)
 #### Form
-![Form](assets/images/readme/form.PNG)
+![Form](assets/readme/form.PNG)
 ### Left-to-Implement
 * Orders online for delivery of some selected products from the portfolio but this will require a secure link for payments and security compliance.
 * A blog also may be created but only accessible to members, requiring therefore a registration and sign in.
@@ -102,7 +102,7 @@ The UX was deployed and tested only for screen sizes greater than 1600px but nee
 This is a section of the deployment still under development.
 
 ### Structure
-![Structure](assets/images/readme/structure.png)
+![Structure](assets/readme/structure.png)
 [Table-of-Contents](#Table-of-Contents)
 
 ### Business-Goals
@@ -130,10 +130,10 @@ This is a section of the deployment still under development.
 **DynaPuff** (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
 **Arial** (Helvetica, sans-serif) was used mostly for any other text in all sections, including the menu and form.
 #### Wireframes
-![wireframe-home](assets/images/readme/wireframe-home.PNG)
-![wireframe-brazil](assets/images/readme/wireframe-brazil.PNG)
-![wireframe-portugal](assets/images/readme/wireframe-portugal.PNG)
-![wireframe-contact](assets/images/readme/wireframe-contact.png)
+![wireframe-home](assets/readme/wireframe-home.PNG)
+![wireframe-brazil](assets/readme/wireframe-brazil.PNG)
+![wireframe-portugal](assets/readme/wireframe-portugal.PNG)
+![wireframe-contact](assets/readme/wireframe-contact.png)
 
 [Table-of-Contents](#Table-of-Contents)
 
@@ -142,11 +142,11 @@ This website has not a customized page to acknowledge the submit form so the Cod
 Currently, the website is only optimized for screen sizes greater than 1600px.
 
 Views of all pages on a screen size greater than 1600px.
-![home-1600px-part1](assets/images/readme/home-1600px-part1.PNG)
-![home-1600px-part2](assets/images/readme/home-1600px-part2.PNG)
-![brazil-1600px](assets/images/readme/brazil-1600px.PNG)
-![portugal-1600px](assets/images/readme/portugal-1600px.PNG)
-![contact-1600px](assets/images/readme/contact-1600px.PNG)
+![home-1600px-part1](assets/readme/home-1600px-part1.PNG)
+![home-1600px-part2](assets/readme/home-1600px-part2.PNG)
+![brazil-1600px](assets/readme/brazil-1600px.PNG)
+![portugal-1600px](assets/readme/portugal-1600px.PNG)
+![contact-1600px](assets/readme/contact-1600px.PNG)
 
 [Table-of-Contents](#Table-of-Contents)
 
@@ -158,12 +158,12 @@ Views of all pages on a screen size greater than 1600px.
 * Lighthouse – Developer Tools
 * Chrome – Developer Tools
 * Am I Responsive [here](https://ui.dev/amiresponsive).
-![responsive](assets/images/readme/responsive-results.PNG)
+![responsive](assets/readme/responsive-results.PNG)
 #### Lighthouse
-![lighthouse-index-results-performance](assets/images/readme/lighthouse-index-results-performance.PNG)
-![lighthouse-brazil-results-performance](assets/images/readme/lighthouse-brazil-results-performance.PNG)
-![lighthouse-portugal-results-performance](assets/images/readme/lighthouse-portugal-results-performance.PNG)
-![lighthouse-contact-results-performance](assets/images/readme/lighthouse-contact-results-performance.PNG)
+![lighthouse-index-results-performance](assets/readme/lighthouse-index-results-performance.PNG)
+![lighthouse-brazil-results-performance](assets/readme/lighthouse-brazil-results-performance.PNG)
+![lighthouse-portugal-results-performance](assets/readme/lighthouse-portugal-results-performance.PNG)
+![lighthouse-contact-results-performance](assets/readme/lighthouse-contact-results-performance.PNG)
 
 #### Devices
 Tested functionality and responsiveness using the below devices and browsers.
