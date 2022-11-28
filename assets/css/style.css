@@ -248,6 +248,11 @@ div img {
     color: gray;
 }
 
+.footer-div {
+    height: 30px;
+    margin-top: 10px;
+}
+
 /* photos for brazil and portugal pages */
 #photos {
     clear: both;
