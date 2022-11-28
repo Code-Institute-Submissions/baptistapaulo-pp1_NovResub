@@ -25,6 +25,8 @@ header {
 main {
     margin-left: 10%;
     margin-right: 10%;
+    min-height: 700px;
+    max-height: auto;
 }
 
 footer {
@@ -293,6 +295,7 @@ form {
     font-size: large;
     background-color: rgb(235, 221, 102);
     padding: 20px;
+    min-height: 700px;
 }
 
 form>div {
