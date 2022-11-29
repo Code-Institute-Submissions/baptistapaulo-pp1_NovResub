@@ -121,7 +121,7 @@ This is a section of the deployment still under development.
 * Predominant colours across all site are green and yellow.
 * Black and grey ocasionaly.
 ![Color](readme/color_scheme.PNG)
-![Table-of-Contents](#Table-of-Contents)
+[Table-of-Contents](#Table-of-Contents)
 
 #### Typography
 **DynaPuff** (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
