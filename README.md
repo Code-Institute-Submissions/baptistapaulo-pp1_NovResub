@@ -10,6 +10,7 @@
         * [Footer](#Footer)
         * [Galleries](#Galleries)
         * [Form](#Form)
+        * [Visited Links](#Visited)
     * [Left to Implement](#Left-to-Implement)
 * [Technologies](#Technologies)
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -72,6 +73,8 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 ![Gallery2-Portugal](readme/portugal2.PNG)
 #### Form
 ![Form](readme/form.PNG)
+#### Visited-Links
+![Visited](readme/visited-links.PNG)
 
 ### Left-to-Implement
 * Orders online for delivery of some selected products from the portfolio but this will require a secure link for payments and security compliance.
