@@ -151,7 +151,7 @@ CSS has no errors but HTML shows a single error regarding the p element, which c
 * CSS - Official (Jigsaw) validator [here](https://jigsaw.w3.org/css-validator/).
 * Lighthouse – Developer Tools
 * Chrome – Developer Tools
-* Responsive Design [here](https://responsivedesignchecker.com/).
+* Responsive Design [here](https://ui.dev/amiresponsive).
 ![responsive](readme/responsive-results.PNG)
 #### Lighthouse
 ![lighthouse-index-results-performance](readme/lighthouse-index-results-performance.PNG)
