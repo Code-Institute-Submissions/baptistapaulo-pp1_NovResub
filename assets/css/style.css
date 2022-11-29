@@ -374,7 +374,7 @@ button {
     header {
         margin-left: 10%;
         margin-right: 10%;
-        height: 300px;
+        height: 105px;
     }
 
     main {
@@ -401,9 +401,11 @@ button {
     }
 
     #form-box {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: lightgray;
-        padding: 15px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: large;
+        background-color: rgb(235, 221, 102);
+        padding: 20px;
+        min-height: 700px;
     }
 
 
@@ -433,13 +435,13 @@ button {
     header {
         margin-left: 5%;
         margin-right: 5%;
-        height: 450px;
+        height: 200px;
     }
 
     main {
         margin-left: 5%;
         margin-right: 5%;
-        min-height: 700px;
+        min-height: 900px;
     }
     
     footer {
@@ -470,9 +472,11 @@ button {
     }
 
     #form-box {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: lightgray;
-        padding: 15px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: large;
+        background-color: rgb(235, 221, 102);
+        padding: 20px;
+        min-height: 700px;
     }
 
 
@@ -502,13 +506,13 @@ button {
     header {
         margin-left: 2%;
         margin-right: 2%;
-        height: 600px;
+        height: 300px;
     }
 
     main {
         margin-left: 2%;
         margin-right: 2%;
-        min-height: 700px;
+        min-height: 1100px;
     }
     
     footer {
@@ -539,9 +543,11 @@ button {
     }
 
     #form-box {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: lightgray;
-        padding: 15px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: large;
+        background-color: rgb(235, 221, 102);
+        padding: 20px;
+        min-height: 700px;
     }
 
 
