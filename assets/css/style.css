@@ -54,13 +54,13 @@ p {
 }
 
 a:link {
-    color: red;
+    color: rgb(51, 136, 40);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(51, 136, 40);
+    color: red;
     background-color: transparent;
     text-decoration: none;
 }
