@@ -380,7 +380,7 @@ button {
     main {
         margin-left: 5%;
         margin-right: 5%;
-        min-height: 900px;
+        min-height: 1200px;
     }
     
     footer {
@@ -396,7 +396,7 @@ button {
 
     #logo-title {
         font-size: 300%;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     }
 
     form {
@@ -414,28 +414,28 @@ button {
         font-family: Verdana, Arial, Helvetica, sans-serif;
         font-size: large;
         background-color: rgb(235, 221, 102);
-        padding: 20px;
-        min-height: 700px;
+        padding: 15px;
+        min-height: 1200px;
     }
 
 
     div>span {
-        padding: 15px;
+        padding: 10px;
         display: inline-block;
-        margin: 30px 30px 30px 110px;
-        border-radius: 15px;
+        margin: 20px 20px 20px 90px;
+        border-radius: 10px;
         background-color: rgb(184, 184, 184);
     }
 
     span>img {
-        border-radius: 10px;
-        width: 200px;
-        height: 200px;
+        border-radius: 7px;
+        width: 150px;
+        height: 150px;
         object-fit: cover;
     }
 
     #photos>img {
-        width: 80%;
+        width: 65%;
     }
 }
 
@@ -451,7 +451,7 @@ button {
     main {
         margin-left: 2%;
         margin-right: 2%;
-        min-height: 1100px;
+        min-height: 1500px;
     }
     
     footer {
@@ -461,13 +461,13 @@ button {
     }
 
     #menu {
-        font-size: 100%;
-        letter-spacing: 2px;
+        font-size: 60%;
+        letter-spacing: 1px;
     }
 
     #logo-title {
         font-size: 200%;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
     }
 
     form {
@@ -485,27 +485,27 @@ button {
         font-family: Verdana, Arial, Helvetica, sans-serif;
         font-size: large;
         background-color: rgb(235, 221, 102);
-        padding: 20px;
+        padding: 10px;
         min-height: 700px;
     }
 
 
     div>span {
-        padding: 15px;
+        padding: 5px;
         display: inline-block;
-        margin: 30px 30px 30px 110px;
-        border-radius: 15px;
+        margin: 10px 10px 10px 70px;
+        border-radius: 5px;
         background-color: rgb(184, 184, 184);
     }
 
     span>img {
-        border-radius: 10px;
-        width: 200px;
-        height: 200px;
+        border-radius: 4px;
+        width: 100px;
+        height: 100px;
         object-fit: cover;
     }
 
     #photos>img {
-        width: 80%;
+        width: 50%;
     }
 }
