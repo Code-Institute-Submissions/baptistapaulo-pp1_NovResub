@@ -72,6 +72,7 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 ![Gallery2-Portugal](readme/portugal2.PNG)
 #### Form
 ![Form](readme/form.PNG)
+
 ### Left-to-Implement
 * Orders online for delivery of some selected products from the portfolio but this will require a secure link for payments and security compliance.
 * A blog also may be created but only accessible to members, requiring therefore a registration and sign in.
@@ -105,6 +106,7 @@ This is a section of the deployment still under development.
 * Allow users to have access to accurate product details at low fees.
 * Promote a forum for discussions about gastronomy.
 * Create and publish a ranking of the most voted products.
+
 ### User-Goals
 #### First-Time-Visitor
 * Easy navigation and search for information.
@@ -116,13 +118,12 @@ This is a section of the deployment still under development.
 * Check if any of the topics posted has been commented.
 * Find new recipes.
 * Order some products.
+
 ### Design
 #### Color-Scheme
 * Predominant colours across all site are green and yellow.
 * Black and grey ocasionaly.
 ![Color](readme/color_scheme.PNG)
-[Table-of-Contents](#Table-of-Contents)
-
 #### Typography
 **DynaPuff** (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
 **Arial** (Helvetica, sans-serif) was used mostly for any other text in all sections, including the menu and form.
@@ -153,7 +154,6 @@ This website has not a customized page to acknowledge the submit form so the Cod
 ![lighthouse-brazil-results-performance](readme/lighthouse-brazil.PNG)
 ![lighthouse-portugal-results-performance](readme/lighthouse-portugal.PNG)
 ![lighthouse-contact-results-performance](readme/lighthouse-contact.PNG)
-
 #### Devices
 Tested functionality and responsiveness using the below devices and browsers.
 * Mobiles
@@ -190,6 +190,7 @@ Repository
 1. Select 'Master Branch' as the source.
 1. Click the Save button.
 1. Click on the link to go to the live deployed page.
+
 ### Locally
 Clone
 1. Navigate to the GitHub [Repository:](https://github.com/baptistapaulo/pp1)
@@ -198,6 +199,7 @@ Clone
 1. Open your developement editor of choice and open a terminal window in a directory of your choice.
 1. Use the 'git clone' command in terminal followed by the copied git URL.
 1. A clone of the project will be created locally on your machine.
+
 ### Fork
 Most commonly, forks are used to either propose changes to someone else's project to which you do not have write access, or to use someone else's project as a starting point for your own idea. You can fork a repository to create a copy of the repository and make changes without affecting the upstream repository.
 So a fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
@@ -205,6 +207,7 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 1. On the top right of the page under the header, click the fork button.
 1. Create a new fork.
 1. This will create a duplicate of the full project in your GitHub Repository.
+
 ### Commands
 * `CTRL + S` was used to save the page.
 * `CTRL + Z` was used to undo a change.
