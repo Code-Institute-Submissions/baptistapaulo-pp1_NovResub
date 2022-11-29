@@ -368,25 +368,36 @@ button {
 
 /* media queries */
 
-/* for larger to medium screens size from 1000px wide and down */
-@media screen and (max-width: 1000px) {
+/* for larger to medium screens size from 1000px wider */
+@media screen and (min-width: 1000px) {
 
     header {
         margin-left: 10%;
         margin-right: 10%;
         height: 300px;
-        background-color: rgba(32, 85, 25, 0.5);
+    }
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+        min-height: 700px;
+    }
+    
+    footer {
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 105px;
     }
 
     form {
         margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-left: 20rem;
-        margin-right: 20rem;
+        margin-left: 20%;
+        margin-right: 20%;
         text-align: left;
-        background-color: rgb(184, 184, 184);
-        padding: 15px;
-        border-radius: 30px;
+        background-color: rgba(101, 216, 85, 0.5);
+        padding: 20px;
+        border-radius: 40px;
     }
 
     #form-box {
@@ -420,10 +431,21 @@ button {
 @media screen and (min-width: 480px) and (max-width: 1000px) {
     
     header {
-        margin-left: 10%;
-        margin-right: 10%;
-        height: 300px;
-        background-color: rgba(32, 85, 25, 0.5);
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 450px;
+    }
+
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+        min-height: 700px;
+    }
+    
+    footer {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 105px;
     }
 
     #menu {
@@ -437,13 +459,13 @@ button {
     }
 
     form {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 20rem;
-        margin-right: 20rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 10%;
+        margin-right: 10%;
         text-align: left;
-        background-color: rgb(184, 184, 184);
-        padding: 15px;
+        background-color: rgba(101, 216, 85, 0.5);
+        padding: 10px;
         border-radius: 30px;
     }
 
@@ -478,10 +500,21 @@ button {
 @media screen and (min-width: 0px) and (max-width: 480px) {
     
     header {
-        margin-left: 10%;
-        margin-right: 10%;
-        height: 300px;
-        background-color: rgba(32, 85, 25, 0.5);
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 600px;
+    }
+
+    main {
+        margin-left: 2%;
+        margin-right: 2%;
+        min-height: 700px;
+    }
+    
+    footer {
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 105px;
     }
 
     #menu {
@@ -495,72 +528,14 @@ button {
     }
 
     form {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 20rem;
-        margin-right: 20rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 5%;
+        margin-right: 5%;
         text-align: left;
-        background-color: rgb(184, 184, 184);
-        padding: 15px;
-        border-radius: 30px;
-    }
-
-    #form-box {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: lightgray;
-        padding: 15px;
-    }
-
-
-    div>span {
-        padding: 15px;
-        display: inline-block;
-        margin: 30px 30px 30px 110px;
-        border-radius: 15px;
-        background-color: rgb(184, 184, 184);
-    }
-
-    span>img {
+        background-color: rgba(101, 216, 85, 0.5);
+        padding: 5px;
         border-radius: 10px;
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-    }
-
-    #photos>img {
-        width: 80%;
-    }
-}
-
-/* for smaller screens size lower than 480px */
-@media screen and (max-width: 1200px) {
-    
-    header {
-        margin-left: 10%;
-        margin-right: 10%;
-        height: 300px;
-        background-color: rgba(32, 85, 25, 0.5);
-    }
-
-    #menu {
-        font-size: 175%;
-        letter-spacing: 4px;
-    }
-
-    #logo-title {
-        font-size: 400%;
-        letter-spacing: 5px;
-    }
-
-    form {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 20%;
-        margin-right: 20%;
-        text-align: left;
-        background-color: rgb(184, 184, 184);
-        padding: 15px;
-        border-radius: 30px;
     }
 
     #form-box {
