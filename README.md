@@ -13,14 +13,13 @@
     * [Left to Implement](#Left-to-Implement)
 * [Technologies](#Technologies)
 * [User Experience Design (UX)](#User-Experience-Design)
-    * [Color Scheme](#Color)
     * [Business Goals](#Business-Goals)
     * [User Goals](#User-Goals)
         * [First Time Visitor](#First-Time-Visitor)
         * [Returning Visitor](#Returning-Visitor)
         * [Frequent User](#Frequent-User)
     * [Design](#Design)
-        * [Colour Scheme](#Colour-Scheme)
+        * [Color Scheme](#Color)
         * [Typography](#Typography)
         * [Wireframes](#Wireframes)
 * [Limitations](#Limitations)
@@ -42,7 +41,7 @@
 * [Comments](#Comments)
 
 ## Purpose
-The idea behind this site is to bring some knowledge about the Portuguese and Brazilian gastronomy. There are a lot of sites with massive information regarding food from both countries but on this one, the focus is to centralize and put together some of the most common and representative products.
+The idea behind this site is to bring some knowledge about the Portuguese and Brazilian gastronomies. There are a lot of sites with massive information regarding food from both countries but on this one, the focus is to centralize and put together some of the most common and representative products.
 The portfolio of recipes will provide some information about each product and then, if the user wants to get additional information, should contact us by filling the form. 
 This site was built with basic functionality and navigation but soon, more advanced features will be deployed such as online orders, request of recipes, requests for further information regarding specific locations (travelling, hotels) and feedback from users (blog). 
 
@@ -77,8 +76,6 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 * Orders online for delivery of some selected products from the portfolio but this will require a secure link for payments and security compliance.
 * A blog also may be created but only accessible to members, requiring therefore a registration and sign in.
 * A database with multiple recipes may be deployed as a back-end engine to provide a feed of different products, so that every month for example, the front end can swift some of the recipes based on a voting scheme from members.
-* Gallery images with the recipe attached underneath and/or text over the photo on mouse click (hover effect).
-* Video and/or music clips to ilustrate some of the cultural aspects of both countries.
 
 [Table-of-Contents](#Table-of-Contents)
 
@@ -100,12 +97,8 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 [Table-of-Contents](#Table-of-Contents)
 
 ## User-Experience-Design
-The UX was deployed and tested only for screen sizes greater than 1600px but needs further deployment for smaller screen sizes (480px & 1000px).
+The UX was deployed and tested for various screen sizes but still needs further testing across different platforms (hardware and software).
 This is a section of the deployment still under development.
-
-### Color Scheme
-![Color](readme/color_scheme.PNG)
-[Table-of-Contents](#Table-of-Contents)
 
 ### Business-Goals
 * Provide a central repository of gastronomy information.
@@ -124,9 +117,12 @@ This is a section of the deployment still under development.
 * Find new recipes.
 * Order some products.
 ### Design
-#### Colour-Scheme
+#### Color-Scheme
 * Predominant colours across all site are green and yellow.
 * Black and grey ocasionaly.
+![Color](readme/color_scheme.PNG)
+![Table-of-Contents](#Table-of-Contents)
+
 #### Typography
 **DynaPuff** (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
 **Arial** (Helvetica, sans-serif) was used mostly for any other text in all sections, including the menu and form.
@@ -146,7 +142,6 @@ This website has not a customized page to acknowledge the submit form so the Cod
 ## Testing
 ### Test-Results
 #### Validators
-CSS has no errors but HTML shows a single error regarding the p element, which could not be fixed yet therefore it will still appear in the results.
 * HTML - Official W3C validator [here](https://validator.w3.org/).
 * CSS - Official (Jigsaw) validator [here](https://jigsaw.w3.org/css-validator/).
 * Lighthouse – Developer Tools
@@ -154,10 +149,10 @@ CSS has no errors but HTML shows a single error regarding the p element, which c
 * Responsive Design [here](https://ui.dev/amiresponsive).
 ![responsive](readme/responsive-results.PNG)
 #### Lighthouse
-![lighthouse-index-results-performance](readme/lighthouse-index-results-performance.PNG)
-![lighthouse-brazil-results-performance](readme/lighthouse-brazil-results-performance.PNG)
-![lighthouse-portugal-results-performance](readme/lighthouse-portugal-results-performance.PNG)
-![lighthouse-contact-results-performance](readme/lighthouse-contact-results-performance.PNG)
+![lighthouse-index-results-performance](readme/lighthouse-index.PNG)
+![lighthouse-brazil-results-performance](readme/lighthouse-brazil.PNG)
+![lighthouse-portugal-results-performance](readme/lighthouse-portugal.PNG)
+![lighthouse-contact-results-performance](readme/lighthouse-contact.PNG)
 
 #### Devices
 Tested functionality and responsiveness using the below devices and browsers.
