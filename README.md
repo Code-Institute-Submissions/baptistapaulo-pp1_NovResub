@@ -5,7 +5,7 @@
 * [Features](#Features)
     * [Existing](#Existing)
         * [Navigation Bar](#Navigation-Bar)
-        * [The Header Image](#The-Header-Image)
+        * [The Hero Image](#The-Hero-Image)
         * [Main Section](#Main-Section)
         * [Footer](#Footer)
         * [Galleries](#Galleries)
@@ -13,7 +13,7 @@
     * [Left to Implement](#Left-to-Implement)
 * [Technologies](#Technologies)
 * [User Experience Design (UX)](#User-Experience-Design)
-    * [Structure](#Structure)
+    * [Color Scheme](#Color)
     * [Business Goals](#Business-Goals)
     * [User Goals](#User-Goals)
         * [First Time Visitor](#First-Time-Visitor)
@@ -42,8 +42,8 @@
 * [Comments](#Comments)
 
 ## Purpose
-The idea behind this site was to bring some knowledge about the Portuguese and Brazilian gastronomy. There are a lot of sites with massive information regarding culture and food from both countries but on this one, the focus is to centralize and put together some of the most common and representative products.
-The portfolio of recipes will provide some basic information about each product and then, if the user wants to get additional information, should contact us by filling the form. 
+The idea behind this site is to bring some knowledge about the Portuguese and Brazilian gastronomy. There are a lot of sites with massive information regarding food from both countries but on this one, the focus is to centralize and put together some of the most common and representative products.
+The portfolio of recipes will provide some information about each product and then, if the user wants to get additional information, should contact us by filling the form. 
 This site was built with basic functionality and navigation but soon, more advanced features will be deployed such as online orders, request of recipes, requests for further information regarding specific locations (travelling, hotels) and feedback from users (blog). 
 
 The live website can be found [here](https://baptistapaulo.github.io/pp1/).
@@ -58,17 +58,19 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 ## Features
 ### Existing
 #### Navigation-Bar
-![Logo-Menu-Bar](readme/header-menu-and-logo.PNG)
-#### The-Header-Image
-![Header-Image-Animation](readme/header-image-animation.PNG)
+![Logo-Menu-Bar](readme/header.PNG)
+#### The-Hero-Image
+![Hero-Image-Animation](readme/hero.PNG)
 #### Main-Section
-![main-section-part1](readme/main-section-part1.png)
-![main-section-part2](readme/main-section-part2.png)
+![main-section-part1](readme/index1.PNG)
+![main-section-part2](readme/index2.PNG)
 #### Footer
 ![Footer](readme/footer.PNG)
 #### Galleries
-![Gallery-Brazil](readme/gallery-brazil.PNG)
-![Gallery-Portugal](readme/gallery-portugal.PNG)
+![Gallery1-Brazil](readme/brazil1.PNG)
+![Gallery2-Brazil](readme/brazil2.PNG)
+![Gallery1-Portugal](readme/portugal1.PNG)
+![Gallery2-Portugal](readme/portugal2.PNG)
 #### Form
 ![Form](readme/form.PNG)
 ### Left-to-Implement
@@ -101,14 +103,14 @@ The live website can be found [here](https://baptistapaulo.github.io/pp1/).
 The UX was deployed and tested only for screen sizes greater than 1600px but needs further deployment for smaller screen sizes (480px & 1000px).
 This is a section of the deployment still under development.
 
-### Structure
-![Structure](readme/structure.png)
+### Color Scheme
+![Color](readme/color_scheme.PNG)
 [Table-of-Contents](#Table-of-Contents)
 
 ### Business-Goals
-* Provide a central repository of gastronomy and cultural information.
+* Provide a central repository of gastronomy information.
 * Allow users to have access to accurate product details at low fees.
-* Promote a forum for discussions about culture and gastronomy.
+* Promote a forum for discussions about gastronomy.
 * Create and publish a ranking of the most voted products.
 ### User-Goals
 #### First-Time-Visitor
@@ -123,9 +125,8 @@ This is a section of the deployment still under development.
 * Order some products.
 ### Design
 #### Colour-Scheme
-* Predominant colours across all site are lightgrey and grey.
-* Black and white ocasionaly.
-* Custom rgb(184,184,184) for headers.
+* Predominant colours across all site are green and yellow.
+* Black and grey ocasionaly.
 #### Typography
 **DynaPuff** (designed by Toshi Omagari, Jennifer Daniel) from Google fonts was used mostly for headers and logo title.
 **Arial** (Helvetica, sans-serif) was used mostly for any other text in all sections, including the menu and form.
@@ -139,25 +140,18 @@ This is a section of the deployment still under development.
 
 ## Limitations
 This website has not a customized page to acknowledge the submit form so the Code Institute form dump page was used instead.
-Currently, the website is only optimized for screen sizes greater than 1600px.
-
-Views of all pages on a screen size greater than 1600px.
-![home-1600px-part1](readme/home-1600px-part1.PNG)
-![home-1600px-part2](readme/home-1600px-part2.PNG)
-![brazil-1600px](readme/brazil-1600px.PNG)
-![portugal-1600px](readme/portugal-1600px.PNG)
-![contact-1600px](readme/contact-1600px.PNG)
 
 [Table-of-Contents](#Table-of-Contents)
 
 ## Testing
 ### Test-Results
 #### Validators
+CSS has no errors but HTML shows a single error regarding the p element, which could not be fixed yet therefore it will still appear in the results.
 * HTML - Official W3C validator [here](https://validator.w3.org/).
 * CSS - Official (Jigsaw) validator [here](https://jigsaw.w3.org/css-validator/).
 * Lighthouse – Developer Tools
 * Chrome – Developer Tools
-* Am I Responsive [here](https://ui.dev/amiresponsive).
+* Responsive Design [here](https://responsivedesignchecker.com/).
 ![responsive](readme/responsive-results.PNG)
 #### Lighthouse
 ![lighthouse-index-results-performance](readme/lighthouse-index-results-performance.PNG)
@@ -184,7 +178,7 @@ Tested functionality and responsiveness using the below devices and browsers.
     * on Edge and Firefox browsers, the footer icons do not inherit the class social-media colour therefore not visible unless moving mouse over the icons but this is not affected in Chrome so further testing required in order to fix this.
     * on Edge and Firefox browsers, the form radius and checkbox buttons do not inherit the input custom options therefore they show default values but this is not affected in Chrome so further testing required in order to fix this.
     * on mobile devices and tablets, pages do not load properly (layout not resized) with impact on UXD but this can be fixed by different media screen sizes in the CSS and with further testing on different platforms.
-    * both HTML and CSS validators pointed to some errors (and warnings) but not all of them were fixed so further testing required to eliminate these errors.
+    * HTML validator pointed to some errors (all related to same) but not all of them were fixed so further testing required to eliminate these errors.
 * Further styling and optimization (different screen size) to improve UX requires additional time.
 
 [Table-of-Contents](#Table-of-Contents)
@@ -231,7 +225,20 @@ So a fork is a copy of a repository. Forking a repository allows you to freely e
 * Text for the main section was created by myself.
 * Additional information gathered from official sites (for both countries).
 * ReadMe structure from **Daisy McGirr** GitHub repositories.
-* Code ideas were gathered from **Chris Williams**, **Daisy McGirr** and **Kera Cudmore** GitHub repositories.
+* Code ideas were gathered from **Kera Cudmore** GitHub repositories [here](https://github.com/kera-cudmore/Bully-Book-Club).
+* Recipes were taken from the below site:
+[Brazilian Chocolate Truffles](https://www.bbcgoodfood.com/recipes/brazilian-chocolate-truffles-brigadeiro)
+[Brazilian Feijoada](https://www.bbcgoodfood.com/recipes/black-bean-meat-stew-feijoada)
+[Brazilian Pastel](https://www.bbcgoodfood.com/recipes/pastel-de-palmito)
+[Brazilian Coconut Quindim](https://www.bbcgoodfood.com/recipes/coconut-quindim)
+[Brazilian Cheese Bread](https://www.bbcgoodfood.com/recipes/brazilian-cheese-bread-pao-de-queijo)
+[Brazilian Chicken Croquettes](https://www.bbcgoodfood.com/recipes/coxinhas)
+[Portuguese Lagareiro Cod](https://portugalgourmand.com/en/recipes/lagareiro-fresh-cod/)
+[Portuguese Grilled Sardines](https://portugueserecipes.ca/recipe/78/1/Portuguese-Grilled-Sardines)
+[Portuguese Pork Stew](https://portugueserecipes.ca/recipe/653/30/Portuguese-Pork-Stew-Recipe)
+[Portuguese Egg Yolk Sweets](https://www.easyportugueserecipes.com/portuguese-egg-yolk-sweets-ovos-moles-de-aveiro/)
+[Portuguese Pig Stew](https://www.easyportugueserecipes.com/leitao-a-bairrada-suckling-pig/)
+[Portuguese Custard Tarts](https://www.bbcgoodfood.com/user/411558/recipe/portugese-custard-tarts)
 
 ### Media
 * The photos used in this website were taken from some resources such as the below.
