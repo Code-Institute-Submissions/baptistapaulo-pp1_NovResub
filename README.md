@@ -147,7 +147,7 @@ This website has not a customized page to acknowledge the submit form so the Cod
 * Lighthouse – Developer Tools
 * Chrome – Developer Tools
 * Responsive Design [here](https://ui.dev/amiresponsive).
-![responsive](readme/responsive-results.PNG)
+![responsive](readme/responsive-results.png)
 #### Lighthouse
 ![lighthouse-index-results-performance](readme/lighthouse-index.PNG)
 ![lighthouse-brazil-results-performance](readme/lighthouse-brazil.PNG)
